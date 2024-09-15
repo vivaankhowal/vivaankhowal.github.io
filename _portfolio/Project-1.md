@@ -12,9 +12,9 @@ This is an item in your portfolio. It can have images or nice text. If you name 
 <br/>
 <img src='/images/Minecraft Wolf IRL.jpeg' width='300' height='auto'>"
 <img src='/images/Minecraft Wolf Side View.jpeg' width='300' height='auto'>"
-<img src='/images/Minecraft Wolf Front View.jpeg' width='300' height='auto'>"
-<img src='/images/Minecraft Wolf Right View.jpeg' width='300' height='auto'>"
-<img src='/images/Minecraft Wolf Work Pose.jpeg' width='300' height='auto'>"
+<img src='/images/Minecraft Dog Front View.jpeg' width='300' height='auto'>"
+<img src='/images/Minecraft Dog Right View.jpeg' width='300' height='auto'>"
+<img src='/images/Minecraft Dog Work Pose.jpeg' width='300' height='auto'>"
 
 
 
