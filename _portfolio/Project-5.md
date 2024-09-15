@@ -3,7 +3,7 @@ title: "Project 5: Infared LED Backdrop"
 excerpt: "Our school was hosting a play and one of the parts of the backdrop was a giant LED sign shaped sort of like a lightning bolt with three Ws on it. But before they spent money on LEDs, they needed someone to create a prototype controlled by an Infared remote, so I agreed. It was my first time using Infared, but I loved how it turned out. It has 6 different settings with 5 different colors.
 <br/>
 <br/>
-<img src='/images/IR LED off.jpeg' width='500' height='auto'>"
+<img src='/images/IR LED off.jpeg' width='400' height='auto' style="transform: rotate(90deg);">"
 
 collection: Portfolio
 ---
