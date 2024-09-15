@@ -1,6 +1,6 @@
 ---
 title: "Project 3: Neopixel Lightsaber"
-excerpt: "This is the project I'm currently working on. It's a Kylo Ren-style Lightsaber with LED strips in the blade. It is easily my favorite project I've built so far, but also the hardest project yet. This is the second time I'm attempting this project because I just followed a tutorial the first time I built it. It didn't look anything like a lightsaber, so I decided to redeem myself by creating it from the ground up and learning about how they work to build it. Although it isn't finished, it is turning out amazing so far.
+excerpt: "This is the project I'm currently working on. It's a Kylo Ren-style Lightsaber with LED strips in the blade. It is easily my favorite project I've built so far, but also the hardest project yet. Although it isn't finished, it is turning out amazing so far.
 <br/>
 <br/>
 <img src='/images/Lightsaber in Dark.jpeg' width='400' height='auto'>
@@ -9,4 +9,11 @@ excerpt: "This is the project I'm currently working on. It's a Kylo Ren-style Li
 collection: Portfolio
 ---
 
-This is an item in your portfolio. It can have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This is my most recent project and is still in progress. It is an RGB LED "Neopixel" Lightsaber. I decided to build Kylo Ren's Lightsaber with the 2 mini-blades on the sides. The reason it's called a Neopixel Lightsaber is because the blades use a special type of LED strip that can be controlled with code. It's my favorite project so far, and also the hardest project I've attempted. This is my second time attempting this build because the first time I built it, it didn't look and work as well as I hoped, so I'm attempting it again and this time pouring a lot of effort into making it look good. So far it looks amazing.
+<p></p>
+<img src='/images/Lightsaber Light.jpeg' width='200' height='auto'>
+<p></p>
+<img src='/images/Lightsaber Dark.jpeg' width='200' height='auto'>
+<img src='/images/Lightsaber Reference.jpg' width='200' height='auto'>
+<p></p>
+<img src='/images/Lightsaber V1.jpeg' width='200' height='auto'>
