@@ -15,6 +15,7 @@ This is an item in your portfolio. It can have images or nice text. If you name 
 <img src='/images/Minecraft Dog Front View.jpeg' width='300' height='auto'>"
 <img src='/images/Minecraft Dog Right View.jpeg' width='300' height='auto'>"
 <img src='/images/Minecraft Dog Work Pose.jpeg' width='300' height='auto'>"
+<img src='/images/Minecraft Wolf Game.jpeg' width='300' height='auto'>"
 
 
 
