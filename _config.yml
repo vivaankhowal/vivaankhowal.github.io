@@ -22,9 +22,9 @@ repository               : "vivaankhowal/vivaankhowal.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Vivaan"
+  name             : "Vivaan Khowal"
   pronouns         : "he/him"  
-  bio              : "High School Student @ Lambert High School; Swiming Coach & Lifegaurd @ Cummings Aquatic Center"
+  bio              : "High School Student @ Lambert High School; Swiming Coach & Lifegaurd @ Cumming Aquatic Center"
   location         : "Georgia"
   employer         : "Lambert High School"
   uri              : # URL
@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
   # Repositories and software development
@@ -50,13 +50,13 @@ author:
   # Social media
   linkedin         : "vivaankhowal"
   bluesky          : # "bsky.app" # Replace this with you Bluesky username
-  facebook         : ""
+  facebook         : #""
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : ""
+  instagram        : #""
   lastfm           : # Username
   mastodon         : # URL
   medium           : # URL
