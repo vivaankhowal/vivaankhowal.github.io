@@ -15,4 +15,4 @@ This is an item in your portfolio. It can have images or nice text. If you name 
 <img src='/images/Chess Playing.jpg' width='400' height='auto'>
 <img src='/images/Chess Top Side View.jpg' width='400' height='auto'>
 <img src='/images/Chess Top View.jpg' width='400' height='auto'>
-<img src='/images/Chess w:teacher .jpg' width='400' height='auto'>
+<img src='/images/Chess with Teacher.jpeg' width='400' height='auto'>
