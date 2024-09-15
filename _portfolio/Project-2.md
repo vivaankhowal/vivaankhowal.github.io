@@ -12,11 +12,11 @@ As Halloween drew near during my sophomore year at high school, we were given a 
 <p></p>
 <img src='/images/Chess Main View.jpg' width='400' height='auto'>
 <p></p>
+<img src='/images/Chess Group Pose.jpg' width='400' height='auto'>
+<p></p>
 <img src='/images/Chess Top Side View.jpg' width='400' height='auto'>
 <p></p>
 <img src='/images/Chess Top View.jpg' width='400' height='auto'>
 <p></p>
 <img src='/images/Chess Playing.jpg' width='400' height='auto'>
-<p></p>
-<img src='/images/Chess Group Pose.jpg' width='400' height='auto'>
 
