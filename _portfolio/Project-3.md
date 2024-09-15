@@ -3,7 +3,7 @@ title: "Project 3: Neopixel Lightsaber"
 excerpt: "This is the project I'm currently working on. It's a Kylo Ren-style Lightsaber with LED strips in the blade. It is easily my favorite project I've built so far, but also the hardest project yet. Although it isn't finished, it is turning out amazing so far.
 <br/>
 <br/>
-<img src='/images/Lightsaber in Dark.jpeg' width='400' height='auto'>
+<img src='/images/Lightsaber in Dark.jpeg' width='400' height='auto'>"
 collection: Portfolio
 ---
 
