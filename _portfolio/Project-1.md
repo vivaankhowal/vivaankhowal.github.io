@@ -13,6 +13,9 @@ This is an item in your portfolio. It can have images or nice text. If you name 
 <img src='/images/Minecraft Wolf IRL.jpeg' width='300' height='auto'>
 <img src='/images/Minecraft Dog Front View.jpeg' width='300' height='auto'>
 <p></p>
+<img src='/images/Minecraft Wolf Side View.jpeg' width='300' height='auto'>
+<img src='/images/Minecraft Dog Right View.jpeg' width='300' height='auto'>
+<p></p>
 How it looks in-game:
 <p></p>
 <img src='/images/Minecraft Wolf Game.png' width='300' height='auto'>
@@ -20,9 +23,6 @@ How it looks in-game:
 Image for scale:
 <p></p>
 <img src='/images/Minecraft Dog Work Pose.jpeg' width='300' height='auto'>
-<p></p>
-<img src='/images/Minecraft Wolf Side View.jpeg' width='300' height='auto'>
-<img src='/images/Minecraft Dog Right View.jpeg' width='300' height='auto'>
 
 
 
