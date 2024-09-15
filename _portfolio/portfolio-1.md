@@ -4,7 +4,7 @@ excerpt: "'Minecraft' was my childhood favorite video game and I still play it t
 <br/>
 <br/>
 <img src='/images/IMG_1299.jpeg' width='300' height='auto'>
-<img src='/images/3953273590_704e3899d5_m.jpg' width='300' height='auto'>"
+<img src='/images/Minecraft Wolf.png' width='300' height='auto'>"
 
 collection: Portfolio
 ---
