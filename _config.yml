@@ -24,10 +24,10 @@ author:
   avatar           : "vivaan-khowal-mugshot.jpg"
   name             : "Vivaan Khowal"
   pronouns         : "he/him"  
-  bio              : "High School Student @ Lambert High School; Swiming Coach & Lifegaurd @ Cumming Aquatic Center"
-  location         : "Georgia"
-  employer         : "Lambert High School"
-  uri              : # URL
+  bio              : "Junior @ Lambert High School; Swimming Coach & Lifeguard @ Cumming Aquatic Center"
+  location         : "Georgia, USA"
+  employer         : "City of Cumming"
+  uri              : "https://www.cityofcumming.net"
   email            : # "none@example.org" 
 
   # Academic websites
