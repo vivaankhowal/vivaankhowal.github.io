@@ -4,7 +4,6 @@ excerpt: "This is the project I'm currently working on. It's a Kylo Ren-style Li
 <br/>
 <br/>
 <img src='/images/Lightsaber in Dark.jpeg' width='400' height='auto'>
-
 collection: Portfolio
 ---
 
