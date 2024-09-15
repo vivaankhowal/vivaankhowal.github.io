@@ -10,9 +10,9 @@ collection: Portfolio
 
 This is an item in your portfolio. It can have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
 <p></p>
-<img src='/images/Chess Group Pose.jpg' width='400' height='auto'>
 <img src='/images/Chess Main View.jpg' width='400' height='auto'>
-<img src='/images/Chess Playing.jpg' width='400' height='auto'>
 <img src='/images/Chess Top Side View.jpg' width='400' height='auto'>
 <img src='/images/Chess Top View.jpg' width='400' height='auto'>
-<img src='/images/Chess with Teacher.jpeg' width='400' height='auto'>
+<img src='/images/Chess Playing.jpg' width='400' height='auto'>
+<img src='/images/Chess Group Pose.jpg' width='400' height='auto'>
+
