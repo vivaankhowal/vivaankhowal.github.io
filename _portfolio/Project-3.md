@@ -14,6 +14,5 @@ This is my most recent project and is still in progress. It is an RGB LED "Neopi
 <img src='/images/Lightsaber in Light.jpeg' width='200' height='auto'>
 <p></p>
 <img src='/images/Lightsaber in Dark.jpeg' width='200' height='auto'>
-<img src='/images/Lightsaber Reference.jpg' width='200' height='auto'>
 <p></p>
 <img src='/images/Lightsaber V1.jpeg' width='200' height='auto'>
