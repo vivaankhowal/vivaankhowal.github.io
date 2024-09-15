@@ -12,11 +12,11 @@ Our school was hosting a play and they needed a giant LED sign shaped sort of li
 <p></p>
 <img src='/images/IR LED off.jpeg' width='400' height='auto' >
 <p></p>
-<img src='/images/IR LED Blue.jpeg' width='400' height='auto' >
-<img src='/images/IR LED Green.jpeg' width='400' height='auto' >
-<img src='/images/IR LED Red.jpeg' width='400' height='auto' >
-<img src='/images/IR LED Yellow.jpeg' width='400' height='auto' >
-<img src='/images/IR LED Purple.jpeg' width='400' height='auto' >
+<img src='/images/IR LED Blue.jpeg' width='300' height='auto' >
+<img src='/images/IR LED Green.jpeg' width='300' height='auto' >
+<img src='/images/IR LED Red.jpeg' width='300' height='auto' >
+<img src='/images/IR LED Yellow.jpeg' width='300' height='auto' >
+<img src='/images/IR LED Purple.jpeg' width='300' height='auto' >
 <p></p>
 An extra mix setting for yellow and purple:
 <p></p>
