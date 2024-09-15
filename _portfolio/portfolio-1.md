@@ -1,6 +1,11 @@
 ---
 title: "Project 1: Cardboard Minecraft Wolf"
-excerpt: "'Minecraft' was my childhood favorite video game and I still play it today, and one of my favorite mechanics is the ability to tame a pet wolf. So for my first project, I decided to bring it to life!<br/><br/><img src='/images/IMG_1299.jpeg' width='300' height='auto'>"
+excerpt: "'Minecraft' was my childhood favorite video game and I still play it today, and one of my favorite mechanics is the ability to tame a pet wolf. So for my first project, I decided to bring it to life!
+<br/>
+<br/>
+<img src='/images/IMG_1299.jpeg' width='300' height='auto'>
+<img src='/images/3953273590_704e3899d5_m.jpg' width='300' height='auto'>"
+
 collection: Portfolio
 ---
 
