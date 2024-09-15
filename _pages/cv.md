@@ -25,8 +25,9 @@ Work experience
 Skills
 ======
 * Swimming
-* ...
-  * ...
+* 3D Modeling
+* 3D Printing
+* Woodworking
   
 Service and leadership
 ======
