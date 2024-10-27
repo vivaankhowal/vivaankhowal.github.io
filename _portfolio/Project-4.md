@@ -15,7 +15,7 @@ This is my most recent project and is still in progress. It is an RGB LED "Neopi
 <p></p>
 <img src='/images/lightsaber3.jpg' width='300' height='auto'>
 <p></p>
-First attempt building it:
+This was my first attempt building a lightsaber:
 <p></p>
 <img src='/images/Lightsaber V1.jpeg' width='300' height='auto'>
 
