@@ -32,7 +32,7 @@ This is a collapsible sword that extends when you swing it:
 <p></p>
 This is a magnetic Megabot from my favorite Disney movie Big Hero 6:
 <p></p>
-<img src='/images/megabot.jpg' width='400' height='auto' > <img src='/images/happy bot.jpeg' width='400' height='auto' >
+<img src='/images/megabot.jpg' width='400' height='auto'> <img src='/images/happy bot.jpeg' width='400' height='auto' >
 <p></p>
 <img src='/images/megabot2.jpg' width='400' height='auto' > <img src='/images/angry bot.jpeg' width='400' height='auto' >
 <p></p>
