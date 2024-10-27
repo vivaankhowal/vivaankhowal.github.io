@@ -1,5 +1,5 @@
 ---
-title: "Side Projects"
+title: "Mini Projects"
 excerpt: "These are just some smaller projects I made using my 3D printer to display certain souvenirs. Whenever I don't want to start a big project, I make these to solve smaller problems or to decorate.
 <br/>
 <br/>
@@ -12,16 +12,29 @@ Whenever I don't want to start a big project but still want to build something, 
 <p></p>
 <img src='/images/Full Shelf Pic.jpeg' width='400' height='auto' >
 <p></p>
-This is to display a M&M dispenser that I got as a souvenir from Las Vegas
+This is a display for my M&M dispenser that I got as a souvenir from Las Vegas:
 <p></p>
-<img src='/images/M&M Display.jpeg' width='400' height='auto' >
+<img src='/images/mnm.jpg' width='400' height='auto' >
 <p></p>
-This is to display the Funko Pops that I own
+This is a display for the Funko Pops that I own:
 <p></p>
-<img src='/images/Funko Pop Display.jpeg' width='400' height='auto' >
+<img src='/images/funko pop.jpg' width='400' height='auto' >
 <p></p>
-This is to show off my Harry Potter Wand that I got as a souvenir from Universal Studios
+This is to show off my Harry Potter Wand that I got as a souvenir from Universal Studios:
 <p></p>
-<img src='/images/Harry Potter Display.jpeg' width='400' height='auto' >
+<img src='/images/harry potter.jpg' width='400' height='auto' >
+<p></p>
+This is a collapsible sword that extends when you swing it:
+<p></p>
+<img src='/images/darksaber.jpg' width='400' height='auto' >
+<p></p>
+<img src='/images/darksaber2.jpg' width='400' height='auto' >
+<p></p>
+This is a magnetic Megabot from my favorite Disney movie Big Hero 6:
+<p></p>
+
+<p></p>
+<p></p>
+<p></p>
 
 
