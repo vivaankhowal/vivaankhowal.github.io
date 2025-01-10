@@ -17,6 +17,10 @@ This was my first attempt at building a lightsaber:
 <p></p>
 This was my second attempt at building a lightsaber:
 <p></p>
-<img src='/images/Lightsaber V1.jpeg' width='300' height='auto'>
+<img src='/images/IMG_5416.HEIC' width='300' height='auto'>
+<p></p>
+<img src='/images/IMG_5417.HEIC' width='300' height='auto'>
+<p></p>
+<img src='/images/IMG_0196.JPEG' width='300' height='auto'>
 
 
