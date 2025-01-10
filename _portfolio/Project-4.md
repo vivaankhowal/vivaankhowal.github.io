@@ -11,9 +11,9 @@ This is my most recent project and is also my favorite. It is an RGB LED "Neopix
 <p></p>
 <img src='/images/IMG_5491.jpg' width='300' height='auto'>
 <p></p>
-<img src='/images/IMG_5492.jpg' width='300' height='auto'>
+<img src='/images/IMG_5499.jpg' width='300' height='auto'>
 <p></p>
-<img src='/images/IMG_5492.jpg' width='300' height='auto'>
+<img src='/images/IMG_5500.jpg' width='300' height='auto'>
 <p></p>
 These are some colors the lightsaber can do:
 <p></p>
@@ -21,7 +21,7 @@ These are some colors the lightsaber can do:
 <p></p>
 <img src='/images/IMG_5493.jpg' width='300' height='auto'>
 <p></p>
-<img src='/images/IMG_5494.jpg' width='300' height='auto'>
+<img src='/images/IMG_5496.jpg' width='300' height='auto'>
 <p></p>
 These are the CAD files for the saber:
 This was my first attempt at building a lightsaber:
