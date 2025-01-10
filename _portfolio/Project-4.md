@@ -24,6 +24,15 @@ These are some colors the lightsaber can do:
 <img src='/images/IMG_5496.jpg' width='300' height='auto'>
 <p></p>
 These are the CAD files for the saber:
+<p></p>
+<img src='/images/converted_image.png' width='300' height='auto'>
+<p></p>
+<img src='/images/converted_image (3).png' width='300' height='auto'>
+<p></p>
+<img src='/images/converted_image (2).png' width='300' height='auto'>
+<p></p>
+<img src='/images/converted_image (1).png' width='300' height='auto'>
+<p></p>
 This was my first attempt at building a lightsaber:
 <p></p>
 <img src='/images/Lightsaber V1.jpeg' width='300' height='auto'>
