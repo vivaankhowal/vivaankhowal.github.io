@@ -45,19 +45,7 @@ For the mechanical parts, I used a 3D-printed hilt modeled after an actual light
 
 ## Software
 <p></p>
-<img src='/images/IMG_5491.jpg' width='300' height='auto'>
-<p></p>
-<img src='/images/IMG_5499.jpg' width='300' height='auto'>
-<p></p>
-<img src='/images/IMG_5500.jpg' width='300' height='auto'>
-<p></p>
-These are some colors the lightsaber can do:
-<p></p>
-<img src='/images/IMG_5492.jpg' width='300' height='auto'>
-<p></p>
-<img src='/images/IMG_5493.jpg' width='300' height='auto'>
-<p></p>
-<img src='/images/IMG_5496.jpg' width='300' height='auto'>
-<p></p>
+This was easily the hardest part of this project. The biggest downside about using a Proffieboard is it takes a lot of setup  to code it to your specific components.
+
 
 
