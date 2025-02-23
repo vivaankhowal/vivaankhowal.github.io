@@ -6,7 +6,7 @@ excerpt: "This is my first and my favorite electrical engineering project. It's 
 <img src='/images/Lightsaber in Dark.jpeg' width='400' height='auto'>"
 collection: Portfolio
 ---
-# About
+## About
 This is my most recent project and is also my favorite. It is an RGB LED "Neopixel" Lightsaber. The reason it's called a Neopixel Lightsaber is because the blades use a special type of LED strip that can be controlled with code. It has a custom soundboard to play sounds when you swing it, it flashes when you clash it against something and can change color with a click of a button. This is the third version for this build because the first time I built it, it didn't look and work as well as I hoped, and the second version was better, but I felt like I could do better. so I attempted it again and this time poured a lot of effort into making it look good, and it turned out amazing.
 <p></p>
 <img src='/images/IMG_5491.jpg' width='300' height='auto'>
