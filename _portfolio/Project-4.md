@@ -40,7 +40,7 @@ In case you would like to see the full model by yourself, here is the link to th
 ## Hardware and Electronics
 For the mechanical parts, I used a 3D-printed hilt modeled after an actual lightsaber of a star wars character and uses screws to hold together each part. The cap at the bottom is a friction-fit cap to cover the speaker. For the electronics, instead of using an Arduino, I used a custom soundboard with a built-in gyroscope and accelerometer called a Proffieboard made specifically for Neopixel Lightsabers. It uses the same 2 WS2812b LED strips for the lights and a 40-inch polycarbonate tube with special diffusive film and packing foam to diffuse the light. It uses 2 momentary buttons instead of 1: one button for activating the saber, and the other for changing colors or blaster effects. For power it uses a 3.7V 18650 Lithium Ion battery with a capacity of 3500mAh connected to a 5A kill switch to cut the power if needed, and with the saber having a current draw of around 2.5A, the saber runs for a little more than 1 hour before the battery runs out. For sound, it uses a 3W 4Ω Speaker and the board has a built-in resistor to avoid short circuits. Here is the wiring diagram:
 <p></p>
-
+<img src='/images/6.png' width='600' height='auto'>
 <p></p>
 
 ## Software
