@@ -10,12 +10,15 @@ collection: Portfolio
 This is the first electrical project I attempted and also my favorite. It's a Neopixel Lightsaber with many colors and effects like the ones on the big screen. This originally started as a group project but after building the first version for the project, it didn't live up to the vision I had for this project. So I took it upon myself to rebuild it again and again so it matches my vision almost perfectly.
 <p></p>
 <p></p>
+
 ## CAD Design
 <p></p>
 <p></p>
+
 ## Hardware and Electronics
 <p></p>
 <p></p>
+
 ## Software
 <p></p>
 <img src='/images/IMG_5491.jpg' width='300' height='auto'>
