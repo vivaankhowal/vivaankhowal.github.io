@@ -11,11 +11,21 @@ This is the first electrical project I attempted and also my favorite. It's a Ne
 <p></p>
 This was the first version that our group built for the project. It featured 2 WS2812b LED strips connected to an Arduino Nano via a breadboard with a momentary button, a 10,000 Ohm Resistor for control, and a 9V battery for power hooked up to a switch. For the hilt, everything was held with glue and tape, and a cardboard hilt as a base, Although it did light up, it was extremely delicate, and almost impossible to do certain things like swing it around or duel.
 <p></p>
-<img src='/images/Lightsaber V1.jpeg' width='200' height='auto'> <img src='/v1nl.png' width='300' height='auto'>
+<img src='/images/Lightsaber V1.jpeg' width='200' height='auto'> <img src='/v1nl.png' width='500' height='auto'>
 <p></p>
+This is the second version I attempted all on my own. I took every aspect of the previous lightsaber and upgraded it in terms of durability, power, and looks. The electronics for this one feature an Arduino Nano instead of an Uno hooked up to 3 LED strips instead of 2 (One strip is for the side blades). For power, there is a 5V power bank with a much higher battery capacity and the matching voltage for the other electronics. It also features a custom LED button for ignition and a switch to turn the power bank on and off and actual soldering instead of heat shrinks. It also features a custom 3D-printed hilt instead of a cardboard one. Although it was a huge upgrade and was much tougher, it still wasn't as good as I wanted it to be and had a bunch of issues like being extremely heavy.
 <p></p>
+<img src='/images/IMG_5416.jpg' width='300' height='auto'>
+<img src='/images/IMG_5417.jpg' width='300' height='auto'>
+<img src='/images/IMG_0196.JPEG' width='300' height='auto'>
+<p></p>
+For the third and final version, I didn't hold anything back. I poured a ton of effort into research for the components, the features, the power, and even the actual design of the hilt. This version also features a 3D-printed hilt but it is modeled after an actual Star Wars character. This one features a ton of features as it does in the movie like different colors, swinging sound effects, cool ignition and deactivation effects, and even tip drag and flash on clash. There were still a few minor adjustments required so I made a more refined version later by making it more durable and fixing the soldering on the wires, but I kept the same hilt design. This was the version that finally satisfied my vision and did exactly what I wanted it to do.
+<p></p>
+<img src='/images/IMG_5491.jpg' width='300' height='auto'>
 
 ## CAD Design
+For the CAD files, I used a 3D modeling software called onshape
+https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/e9aaff12f8ae0d7d574c5a64?renderMode=0&uiState=67bb8484fd9b866452c45fe4
 <p></p>
 <p></p>
 
@@ -39,26 +49,5 @@ These are some colors the lightsaber can do:
 <p></p>
 <img src='/images/IMG_5496.jpg' width='300' height='auto'>
 <p></p>
-These are the CAD files for the saber:
-<p></p>
-<img src='/images/converted_image.jpg' width='300' height='auto'>
-<p></p>
-<img src='/images/converted_image (3).jpg' width='300' height='auto'>
-<p></p>
-<img src='/images/converted_image (2).jpg' width='300' height='auto'>
-<p></p>
-<img src='/images/converted_image (1).jpg' width='300' height='auto'>
-<p></p>
-This was my first attempt at building a lightsaber:
-<p></p>
-<img src='/images/Lightsaber V1.jpeg' width='300' height='auto'>
-<p></p>
-This was my second attempt at building a lightsaber:
-<p></p>
-<img src='/images/IMG_5416.jpg' width='300' height='auto'>
-<p></p>
-<img src='/images/IMG_5417.jpg' width='300' height='auto'>
-<p></p>
-<img src='/images/IMG_0196.JPEG' width='300' height='auto'>
 
 
