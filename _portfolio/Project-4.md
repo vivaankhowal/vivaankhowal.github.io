@@ -45,7 +45,7 @@ For the mechanical parts, I used a 3D-printed hilt modeled after an actual light
 
 ## Software
 <p></p>
-This was easily the hardest part of this project. The biggest downside about using a Proffieboard is it takes a lot of setup  to code it to your specific components.
+This was easily the hardest part of this project. The biggest downside about using a Proffieboard is it takes a lot of setup to code it to your specific components. To code the board, you first have to upload its custom OS using a specific file that is specific to each version of the board. In my case, it was this file, "proffieboard_v3_config.h". Then you have to upload the actual config file for the saber which is shown below through the Arduino IDE. Finally, you need to upload all the sound files through an SD Card which is inserted on the board. Proffieboard config files are just the actual code you upload to the board and they all have 4 parts: The top which is where you define all the hardware and the features you want your blade to have, the color presets which is where you define the exact color of your blade; the sound effect it should use, and any effects it should have like a ripple or a flashing effect; the blade presets which is where you define the exact model of LED strips you used, the number of LEDs in each strip, and what pin on the board the LED strip is wired to; and the button presets which is where you define all the buttons your saber has, what pin they are connected to, and what each button should do. Here is the full code for the Proffieboard:
 <p></p>
 ```cpp
 //This is where I define all the features, the number of blades, buttons, the volume, and how many LEDs I used
