@@ -18,6 +18,7 @@ This is the second version I attempted all on my own. I took every aspect of the
 <img src='/images/IMG_5416.jpg' width='300' height='auto'>
 <img src='/images/IMG_5417.jpg' width='300' height='auto'>
 <img src='/images/IMG_0196.JPEG' width='300' height='auto'>
+<img src='/images/Lightsaber in Light.jpeg' width='400' height='auto'>
 <p></p>
 For the third and final version, I didn't hold anything back. I poured a ton of effort into research for the components, the features, the power, and even the actual design of the hilt. This version also features a 3D-printed hilt but it is modeled after an actual Star Wars character. This one features a ton of features as it does in the movie like different colors, swinging sound effects, cool ignition and deactivation effects, and even tip drag and flash on clash. There were still a few minor adjustments required so I made a more refined version later by making it more durable and fixing the soldering on the wires, but I kept the same hilt design. This was the version that finally satisfied my vision and did exactly what I wanted it to do.
 <p></p>
