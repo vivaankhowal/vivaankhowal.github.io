@@ -46,6 +46,9 @@ For the mechanical parts, I used a 3D-printed hilt modeled after an actual light
 ## Software
 <p></p>
 This was easily the hardest part of this project. The biggest downside about using a Proffieboard is it takes a lot of setup  to code it to your specific components.
+<p></p>
+https://github.com/vivaankhowal/code-reference-in-readme/blob/031e04f922c14ecd5b03a79d8c979ba8f3ab1e39/_portfolio/main.py#L1-L6
+
 
 
 
