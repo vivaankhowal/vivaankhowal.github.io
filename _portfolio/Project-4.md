@@ -33,7 +33,7 @@ For the CAD files, I used a 3D modeling software called Onshape to design everyt
 <img src='/images/5.png' width='200' height='auto'>
 
 In case you would like to see the full model by yourself, here is the link to the CAD file:
-https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/e9aaff12f8ae0d7d574c5a64?renderMode=0&uiState=67bb8484fd9b866452c45fe4
+<a href="[https://example.com](https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c)">Click here</a>
 <p></p>
 <p></p>
 
