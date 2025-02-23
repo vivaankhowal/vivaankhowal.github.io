@@ -48,12 +48,17 @@ For the mechanical parts, I used a 3D-printed hilt modeled after an actual light
 This was easily the hardest part of this project. The biggest downside about using a Proffieboard is it takes a lot of setup  to code it to your specific components.
 <p></p>
 ```cpp
-#include <iostream>
+BladeConfig blades[] = {
+ { 0, SubBlade(0, 143, WS281XBladePtr<288, bladePin, Color8::GRB, PowerPINS<bladePowerPin2, bladePowerPin3> >()),
+    SubBladeReverse(143, 287, NULL)
+  , CONFIGARRAY(presets) },
+};
+#endif
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+#ifdef CONFIG_BUTTONS
+Button PowerButton(BUTTON_POWER, auxPin, "pow");
+Button AuxButton(BUTTON_AUX, powerButtonPin, "aux");
+#endif
 ```
 
 
