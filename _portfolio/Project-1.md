@@ -1,5 +1,5 @@
 ---
-title: "Project 1: Cardboard Minecraft Wolf"
+title: "Cardboard Minecraft Wolf"
 excerpt: "'Minecraft' was my childhood favorite video game and I still play it today, and one of my favorite mechanics is the ability to tame a pet wolf. So for my first project, I decided to bring it to life!
 <br/>
 <br/>
