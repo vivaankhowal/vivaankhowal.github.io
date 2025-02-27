@@ -11,6 +11,13 @@ For the third and final version, I didn't hold anything back. I poured a ton of 
 <p></p>
 <img src='/images/10.jpeg' width='700' height='auto'>
 <p></p>
+These are some of the colors it can do:
+<p></p>
+<img src='/images/04.jpeg' width='300' height='auto'>
+<img src='/images/05.jpeg' width='300' height='auto'>
+<img src='/images/06.jpeg' width='300' height='auto'>
+<img src='/images/07.jpeg' width='300' height='auto'>
+
 
 ## CAD Design
 For the CAD files, I used a 3D modeling software called Onshape to design everything. It's the software I use to design all my projects. Every part of the lightsaber is printed using different colors of PLA filament, printed on a Prusa Mk4 3D printer I have at home. I've designed the hilt to be sleek and thin to avoid being too heavy and easy to swing but also strong enough to withstand heavy hits or dueling. Here are some photos of the 3D Models:
