@@ -7,12 +7,18 @@ excerpt: "This is version two of the Neopixel Lightsaber that I built all on my 
 collection: Portfolio
 ---
 ## About
-This is the second version I attempted all on my own. I took every aspect of the previous lightsaber and upgraded it in terms of durability, power, and looks. The electronics for this one feature an Arduino Nano instead of an Uno hooked up to 3 LED strips instead of 2 (One strip is for the side blades). For power, there is a 5V power bank with a much higher battery capacity and the matching voltage for the other electronics. It also features a custom LED button for ignition and a switch to turn the power bank on and off and actual soldering instead of heat shrinks. It also features a custom 3D-printed hilt instead of a cardboard one. Although it was a huge upgrade and was much tougher, it still wasn't as good as I wanted it to be and had a bunch of issues like being extremely heavy.
+This is the second version I attempted all on my own. I took every aspect of the previous lightsaber and upgraded it in terms of durability, power, and looks. This one is modeled after Kylo Ren's lightsaber and also has a ripple effect built into the code. Although it was a huge upgrade and was much tougher, it still wasn't as good as I wanted it to be and had a bunch of issues like being extremely heavy.
 <p></p>
 <img src='/images/IMG_5416.jpg' width='300' height='auto'>
 <img src='/images/IMG_5417.jpg' width='300' height='auto'>
 <img src='/images/IMG_0196.JPEG' width='300' height='auto'>
 <img src='/images/Lightsaber in Light.jpeg' width='300' height='auto'>
+
+## Hardware and Electronics
+For the mechanical parts, there is a 3D-printed hilt and each part of the hilt is held together with duct tape. For the blades, there are 3 different-sized blades: a 40" Polycarbonate blade and 2 smaller blades for the sides. For the electronics, there are 3 Neopixel LED strips instead of 2: 2 for the main blade, and 1 for the smaller blades. The code runs off an Arduino Nano soldered to a wire with a USB connecter on the other end to plug into a 5V power bank with 5000 mAh, and since this saber has a current draw of about 3.2 Amps, the saber runs for about 1.5 hours before it needs to be recharged.
+
+## Software
+For the software, I used the Arduino IDE to upload all my code. 
 
 ## Improvements
 The hilt was way stronger than the previous version and could handle light hits and dueling. This time I used actual soldering instead of a breadboard with jumper wires for a much stronger connection. The button was a huge upgrade since the new one works a lot better and looks a lot better with the LED ring.
