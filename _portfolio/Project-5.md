@@ -1,6 +1,6 @@
 ---
 title: "Neopixel Lightsaber V2"
-excerpt: "This is version two of the Neopixel Lightsaber that I build all on my own this time.
+excerpt: "This is version two of the Neopixel Lightsaber that I build all on my own this time. It's the second step on the mission to bring this tech to life!
 <br/>
 <br/>
 <img src='/images/IMG_5416.jpg' width='350' height='auto'>"
@@ -15,3 +15,4 @@ This is the second version I attempted all on my own. I took every aspect of the
 <img src='/images/Lightsaber in Light.jpeg' width='300' height='auto'>
 
 ## Design Flaws
+
