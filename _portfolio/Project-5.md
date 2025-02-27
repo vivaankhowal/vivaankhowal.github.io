@@ -25,5 +25,9 @@ For the mechanical parts, there is a 3D-printed hilt and each part of the hilt i
 
 ## Software
 For the software, I used the Arduino IDE to upload all my code. 
+```cpp
+#include <Adafruit_NeoPixel.h>
+#include <SoftwareSerial.h>
+```
 
 
