@@ -3,7 +3,7 @@ title: "Neopixel Lightsaber V3"
 excerpt: "This is the final version of the Neopixel Lightsaber. It has all the features I wanted and matches my vision perfectly.
 <br/>
 <br/>
-<img src='/images/09.JPG' width='400' height='auto'>"
+<img src='/images/09.JPG' width='400' height='auto'>
 collection: Portfolio
 ---
 ## About
