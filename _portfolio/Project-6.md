@@ -7,11 +7,10 @@ excerpt: "This is the final version of the Neopixel Lightsaber. It has all the f
 collection: Portfolio
 ---
 ## About
-For the third and final version, I didn't hold anything back. I poured a ton of effort into research for the components, the features, the power, and even the actual design of the hilt. This version also features a 3D-printed hilt but it is modeled after an actual Star Wars character. This one features a ton of features as it does in the movie like different colors, swinging sound effects, cool ignition and deactivation effects, and even tip drag and flash on clash. There were still a few minor adjustments required so I made a more refined version later by making it more durable and fixing the soldering on the wires, but I kept the same hilt design. This was the version that finally satisfied my vision and did exactly what I wanted it to do.
+For the third and final version, I didn't hold anything back. I poured a ton of effort into research for the components, the features, the power, and even the actual design of the hilt. This version also features a 3D-printed hilt but it is modeled after an actual Star Wars character. This one features a ton of features as it does in the movie like different colors, swinging sound effects, cool ignition and deactivation effects, and even tip drag and flash on clash.
 <p></p>
 <img src='/images/10.jpeg' width='700' height='auto'>
 <p></p>
-This is the absolute final refined version I talked about previously:
 
 ## CAD Design
 For the CAD files, I used a 3D modeling software called Onshape to design everything. It's the software I use to design all my projects. Every part of the lightsaber is printed using different colors of PLA filament, printed on a Prusa Mk4 3D printer I have at home. I've designed the hilt to be sleek and thin to avoid being too heavy and easy to swing but also strong enough to withstand heavy hits or dueling. Here are some photos of the 3D Models:
