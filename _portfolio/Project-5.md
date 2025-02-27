@@ -3,7 +3,7 @@ title: "Neopixel Lightsaber V2"
 excerpt: "This is version two of the Neopixel Lightsaber that I build all on my own this time.
 <br/>
 <br/>
-<img src='09.jpg' width='400' height='auto'>"
+<img src='/images/IMG_5416.jpg' width='300' height='auto'>"
 collection: Portfolio
 ---
 ## About
