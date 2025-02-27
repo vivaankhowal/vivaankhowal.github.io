@@ -19,7 +19,7 @@ These are some of the colors it can do:
 <img src='/images/07.jpeg' width='300' height='auto'>
 
 ## Improvements
-The new hilt has a lot better design in terms of style and functionality and uses actual screws to hold it together instead of tape. The electronics use a custom chassis to stay in one spot instead of being stuffed in the hilt and prone to tangled wires or even short circuits. There is only one blade this time instead of 3 and there is a single battery instead of a power bank, which is a huge reduction in weight from the previous version. The functionality is also a lot more advanced due to the new custom soundboard instead of an Arduino Nano which leads to having many new features and multiple colors.
+The new hilt has a lot better design in terms of style and functionality and uses actual screws to hold it together instead of tape. The electronics use a custom chassis to stay in one spot instead of being stuffed in the hilt and prone to tangled wires or even short circuits. There is only one blade this time instead of 3 and there is a single battery instead of a power bank, which is a huge reduction in weight from the previous version. There is also a lot more versatility due to the new custom soundboard instead of an Arduino Nano which leads to having many new features and multiple colors.
 
 
 ## CAD Design
