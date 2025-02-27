@@ -3,7 +3,7 @@ title: "Neopixel Lightsaber V1"
 excerpt: "This is my first and my favorite electrical engineering project. It's a Neopixel Lightsaber with LED strips in the blade and a bunch of cool features that bring one of the most iconic pieces of sci-fi tech to life!
 <br/>
 <br/>
-<img src='/images/Lightsaber V1.jpeg' width='400' height='auto'>"
+<img src='/images/Lightsaber V1.jpeg' width='300' height='auto'>"
 collection: Portfolio
 ---
 ## About
