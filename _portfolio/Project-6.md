@@ -9,7 +9,7 @@ collection: Portfolio
 ## About
 For the third and final version, I didn't hold anything back. I poured a ton of effort into research for the components, the features, the power, and even the actual design of the hilt. This version also features a 3D-printed hilt but it is modeled after an actual Star Wars character. This one features a ton of features as it does in the movie like different colors, swinging sound effects, cool ignition and deactivation effects, and even tip drag and flash on clash. There were still a few minor adjustments required so I made a more refined version later by making it more durable and fixing the soldering on the wires, but I kept the same hilt design. This was the version that finally satisfied my vision and did exactly what I wanted it to do.
 <p></p>
-<img src='/images/10.JPG' width='300' height='auto'>
+<img src='/images/10.jpeg' width='300' height='auto'>
 <p></p>
 This is the absolute final refined version I talked about previously:
 
