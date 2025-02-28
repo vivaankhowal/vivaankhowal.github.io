@@ -10,7 +10,7 @@ redirect_from:
 Achievements
 ======
 * Semifinalist for the Governer's Honors Program
-  * Nominated for Electrical and Computational Engineering
+  * Nominated for the Electrical and Computational subcategory
 * Won 2nd place at the 2025 Lanier Regional Tech Competition
 * Red Cross Certified Swim Instructor
 * Red Cross Certified Lifeguard
