@@ -22,7 +22,11 @@ This was almost entirely a CAD Design Challenge instead of an electrical or mech
 ## Hollow Clock
 This was mostly mechanical and electrical instead of CAD like the other clock, which is why the CAD files I used for the clock weren't designed by me. I saw this idea online as well and found an instructable page on how to build one, but I made some changes to the design to fit the electrical components that I used and edited the mechanical design to make it quieter since it was too loud at first.
 <p></p>
-For the electrical parts, I used an Arduino Nano as the microcontroller and a 28BYJ-48 Stepper Motor connected to a ULN2003 Stepper Driver Module. For the mechanical aspect, the way it works is there is a worm gear connected to a spur gear in a 90-degree angle in a 1:12 gear ratio. Inside the main clock, there are 2 big gear rotors: one connected to the worm gear for the hours, and the other connected to the spur gear for the minutes. In the code for the clock, the stepper motor is set to move a certain number of steps every minute.
+For the electrical parts, I used an Arduino Nano as the microcontroller and a 28BYJ-48 Stepper Motor connected to a ULN2003 Stepper Driver Module. For the mechanical aspect, the way it works is there is a worm gear connected to a spur gear in a 90-degree angle in a 1:12 gear ratio. Inside the main clock, there are 2 big gear rotors: one connected to the worm gear for the hours, and the other connected to the spur gear for the minutes. In the code for the clock, the stepper motor is set to move a certain number of steps every minute. The hour hand also levitates because there are Neodymium magnets inside the hand and in the rotor.
+<p></p>
+(Close up picture of the levitating hour hand)
+<p></p>
+
 <p></p>
 Here is the link to the Instructables page:
 <a href="https://www.instructables.com/Hollow-Clock-V/">Click here</a>
