@@ -12,18 +12,60 @@ I've built 2 clocks: one of those was mostly electrical and mechanical, while th
 <img src='/images/25.jpeg' width='400' height='auto'>
 
 ## Brake Disk Clock
-This was almost entirely a CAD Design Challenge instead of an electrical or mechanical project. I saw this idea online where other people made theirs by welding metal or using carbon fiber, but I made mine using 3D-printed parts made from various colors of PLA. 
+This was almost entirely a CAD Design Challenge instead of an electrical or mechanical project. I saw this idea online where other people made theirs by welding metal or using carbon fiber, but I made mine using 3D-printed parts made from various colors of PLA. For the movement, I used a standard quartz clock module powered by a single 1.5V AA Battery.
 <p></p>
 <img src='/images/24.jpeg' width='300' height='auto'>
 <img src='/images/20.png' width='300' height='auto'>
 <img src='/images/21.png' width='300' height='auto'>
 <img src='/images/22.png' width='300' height='auto'>
 
-
 ## Hollow Clock
-
-## Design Flaws
+This was mostly mechanical and electrical instead of CAD like the other clock, which is why the CAD files I used for the clock weren't designed by me. I saw this idea online as well and found an instructable page on how to build one, but I made some changes to the design to fit the electrical components that I used and edited the mechanical design to make it quieter since it was too loud at first.
+<p></p>
+For the electrical parts, I used an Arduino Nano as the microcontroller and a 28BYJ-48 Stepper Motor connected to a ULN2003 Stepper Driver Module. For the mechanical aspect, the way it works is there is a worm gear connected to a spur gear in a 90-degree angle in a 1:12 gear ratio. Inside the main clock, there are 2 big gear rotors: one connected to the worm gear for the hours, and the other connected to the spur gear for the minutes. In the code for the clock, the stepper motor is set to move a certain number of steps every minute.
+<p></p>
+Here is the link to the Instructables page:
+<p></p>
 
 <p></p>
+Here is the code:
+<p></p>
+```cpp
+#include <Stepper.h>
+
+#define STEPS_PER_REV 2048 
+#define MOTOR_SPEED 10      
+
+Stepper stepper(STEPS_PER_REV, 8, 10, 9, 11);
+
+unsigned long previousMillis = 0;
+const unsigned long interval = 60000;  // 1 minute in milliseconds
+int currentMinute = 0;
+
+void setup() {
+    Serial.begin(9600);
+    stepper.setSpeed(MOTOR_SPEED);
+}
+
+void loop() {
+    unsigned long currentMillis = millis();
+
+    if (currentMillis - previousMillis >= interval) {
+        previousMillis = currentMillis;
+
+        // Move stepper to next minute position
+        int stepsPerMinute = STEPS_PER_REV / 60;  // 60 minutes = full rotation
+        stepper.step(stepsPerMinute);
+
+        currentMinute++;
+        if (currentMinute >= 60) {
+            currentMinute = 0; // Reset at 60 minutes
+        }
+
+        Serial.print("Minute: ");
+        Serial.println(currentMinute);
+    }
+}
+```
 
 
