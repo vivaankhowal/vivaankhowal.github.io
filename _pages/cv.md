@@ -7,11 +7,18 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+Achievements
+======
+* Semifinalist for the Governer's Honors Program
+  * Nominated for Electrical and Computational Engineering
+* Won 2nd place at the 2025 Lanier Regional Tech Competition
+* Red Cross Certified Swim Instructor
+* Red Cross Certified Lifeguard
+
 
 Education
 ======
-* Junior year in Lambert High School
+* Junior at Lambert High School
 
 Work experience
 ======
@@ -25,10 +32,13 @@ Work experience
 Skills
 ======
 * Swimming
-* 3D Modeling
+* 3D Modeling (Onshape and Solidworks)
 * 3D Printing
 * Woodworking
+* Electrical Engineer
+  
   
 Service and leadership
 ======
-* ...
+* Varsity Member of High School Robotics Team
+  * Helped with CAD and Mechanical engineering
