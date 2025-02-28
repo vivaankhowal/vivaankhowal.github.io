@@ -21,6 +21,7 @@ For the 3D model, I used Onshape again to model every part, but this time not al
 <img src='/images/17.png' width='400' height='auto' >
 <img src='/images/18.png' width='300' height='auto' >
 <img src='/images/19.png' width='300' height='auto' >
+<p></p>
 Here is a link to the youtube video:
 <a href="https://www.youtube.com/watch?v=5toNqaGsGYs">Click here</a>
 <p></p>
