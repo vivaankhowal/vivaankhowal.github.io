@@ -27,7 +27,8 @@ Here is a link to the full Onshape file:
 
 ## Hardware and Electronics
 For the hardware, I used all 3D printed parts using white PLA filament and various screws. For the module atatchment and data transfer, I used Neodymium magnets with wires soldered to the backs of them in a specific formation for the correct data transfer. For the electronics, I used 4 high torque servo motors connected to a PCA9685 PWM Servo Driver Board and is controlled by an ESP-32 for code. The additional components are a buzzer for sounds, a L293N Motor driver, a Level shifter to interface components with different operating voltages. They are all soldered on a perfboard with wires running under it and the sides. It's powered with a USB cable to plug in to an outlet, and a switch for power cut off.
-
+<p></p>
+<img src='/images/16.jpeg' width='450' height='auto' >"
 
 ## Design Flaws
 The idea of the robot was good, but the overall design wasn't great. Parts of the arm weren't flush when screwed together and the servo motors would have a hard time of lifting it. The magnets I used to transmit the data to the module components didn't work as well because the surface would need to be perfectly flat to work properly. They also lost some of their strength when I soldered wires to it.
