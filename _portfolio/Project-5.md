@@ -25,14 +25,14 @@ This was mostly mechanical and electrical instead of CAD like the other clock, w
 For the electrical parts, I used an Arduino Nano as the microcontroller and a 28BYJ-48 Stepper Motor connected to a ULN2003 Stepper Driver Module. For the mechanical aspect, the way it works is there is a worm gear connected to a spur gear in a 90-degree angle in a 1:12 gear ratio. Inside the main clock, there are 2 big gear rotors: one connected to the worm gear for the hours, and the other connected to the spur gear for the minutes. In the code for the clock, the stepper motor is set to move a certain number of steps every minute.
 <p></p>
 Here is the link to the Instructables page:
+<a href="https://www.instructables.com/Hollow-Clock-V/">Click here</a>
 <p></p>
-
+<img src='/images/23.jpeg' width='300' height='auto'>
 <p></p>
 Here is the code:
 <p></p>
 ```cpp
 #include <Stepper.h>
-
 #define STEPS_PER_REV 2048 
 #define MOTOR_SPEED 10      
 
@@ -41,27 +41,20 @@ Stepper stepper(STEPS_PER_REV, 8, 10, 9, 11);
 unsigned long previousMillis = 0;
 const unsigned long interval = 60000;  // 1 minute in milliseconds
 int currentMinute = 0;
-
 void setup() {
     Serial.begin(9600);
     stepper.setSpeed(MOTOR_SPEED);
 }
-
 void loop() {
     unsigned long currentMillis = millis();
-
     if (currentMillis - previousMillis >= interval) {
         previousMillis = currentMillis;
-
-        // Move stepper to next minute position
         int stepsPerMinute = STEPS_PER_REV / 60;  // 60 minutes = full rotation
         stepper.step(stepsPerMinute);
-
         currentMinute++;
         if (currentMinute >= 60) {
             currentMinute = 0; // Reset at 60 minutes
         }
-
         Serial.print("Minute: ");
         Serial.println(currentMinute);
     }
