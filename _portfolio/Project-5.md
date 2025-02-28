@@ -26,12 +26,13 @@ For the electrical parts, I used an Arduino Nano as the microcontroller and a 28
 <p></p>
 (Close up picture of the levitating hour hand)
 <p></p>
-
+<img src='/images/27.jpeg' width='300' height='auto'>
 <p></p>
 Here is the link to the Instructables page:
 <a href="https://www.instructables.com/Hollow-Clock-V/">Click here</a>
 <p></p>
 <img src='/images/23.jpeg' width='300' height='auto'>
+<img src='/images/26.jpeg' width='300' height='auto'>
 <p></p>
 Here is the code:
 <p></p>
