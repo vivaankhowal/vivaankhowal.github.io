@@ -9,9 +9,9 @@ redirect_from:
 
 Achievements
 ======
-* Semifinalist for the Governer's Honors Program
+* **Semifinalist** for the _Governer's Honors Program_
   * Nominated for the Electrical and Computational subcategory
-* Won 2nd place at the 2025 Lanier Regional Tech Competition
+* **Won 2nd place** at the _2025 Lanier Regional Tech Competition_
 * Red Cross Certified Swim Instructor
 * Red Cross Certified Lifeguard
 
@@ -22,11 +22,11 @@ Education
 
 Work experience
 ======
-* Summer 2024: Swimming Coach
+* Summer 2024: **Swimming Coach**
   * Cumming Aquatic Center - City of Cumming
   * Taught swimming to kids age 6-12
   
-* Summer 2024: Lifeguard
+* Summer 2024: **Lifeguard**
   * Cumming Aquatic Center - City of Cumming
   
 Skills
@@ -36,7 +36,6 @@ Skills
 * 3D Printing
 * Woodworking
 * Electrical Engineer
-  
   
 Service and leadership
 ======
