@@ -11,9 +11,9 @@ collection: Portfolio
 ## About 
 Although this is the hardest project I've ever attempted, it also won me 2nd place at the Lanier Regional Tech Competition! It's a multipurpose robot arm where the head of the claw can be swapped out with these pre-made modules to complete different tasks. This is also the first project that could have some real-world potential in the industry. Imagine having a robot arm that can do multiple tasks instead of a robot for every task. It could save a lot of money and time! 
 <p></p>
-<img src='/images/12.jpeg' width='300' height='auto' >"
+<img src='/images/12.jpeg' width='300' height='auto' >
 <p></p>
-<img src='/images/15.jpg' width='400' height='auto' >"
+<img src='/images/15.jpg' width='400' height='auto' >
 
 
 ## CAD Design
