@@ -3,7 +3,7 @@ title: "Clocks"
 excerpt: "I've always wanted to build a clock for my room, but I built not one but two clocks. Here are the 2 clocks I built!
 <br/>
 <br/>
-<img src='/images/25.jpeg' width='800' height='auto'>"
+<img src='/images/25.jpeg' width='400' height='auto'>"
 collection: Portfolio
 ---
 ## About
