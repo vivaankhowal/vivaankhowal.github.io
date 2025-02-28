@@ -13,13 +13,18 @@ Although this is the hardest project I've ever attempted, it also won me 2nd pla
 
 ## CAD Design
 For the 3D model, I used Onshape again to model every part, but this time not all the parts were designed by me. I found this youtube video that had a great design for a robot arm, and it provided the files for it as well. I used this design and slightly tweaked it to fit my needs.
-Here is a link to the youtube video: https://www.youtube.com/watch?v=5toNqaGsGYs
-Here is a link to my Onshape file:   https://cad.onshape.com/documents/480c6564d0a9bb7166641c2c/w/67f09156e144a437a962df56/e/65f4a082516fa305956dbb93?renderMode=0&uiState=67c1055c314dbd1db302e618
-
-## Design Flaws
-The idea of the robot was good, but the overall design 
+<p></p>
+Here is a link to the youtube video:
+<a href="https://www.youtube.com/watch?v=5toNqaGsGYs">Click here</a>
+<p></p>
+Here is a link to the full Onshape file:   
+<a href="https://cad.onshape.com/documents/480c6564d0a9bb7166641c2c/w/67f09156e144a437a962df56/e/65f4a082516fa305956dbb93?renderMode=0&uiState=67c1055c314dbd1db302e618">Click here</a>
 
 ## Hardware and Electronics
+For the hardware, I used all 3D printed parts using white PLA filament and various screws. For the module atatchment and data transfer, I used Neodymium magnets with wires soldered to the backs of them in a specific formation for the correct data transfer. For the electronics, I used 4 high torque servo motors connected to a PCA9685 PWM Servo Driver Board and is controlled by an ESP-32 for code. The additional components are a buzzer for sounds, a L293N Motor driver, a Level shifter to interface components with different operating voltages. They are all soldered on a perfboard with wires running under it and the sides. It's powered with a USB cable to plug in to an outlet, and a switch for power cut off.
+
+## Design Flaws
+The idea of the robot was good, but the overall design wasn't great. Parts of the arm weren't flush when screwed together and the servo motors would have a hard time of lifting it. The magnets I used to transmit the data to the module components didn't work as well because the surface would need to be perfectly flat to work properly. They also lost some of their strength when I soldered wires to it.
 
 ## Software
 
