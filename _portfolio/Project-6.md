@@ -1,6 +1,6 @@
 ---
 title: "Neopixel Lightsaber V3"
-excerpt: "This is the final version of the Neopixel Lightsaber. It is the end of my mission to bring this tech to life!
+excerpt: "This is the final version of the Neopixel Lightsaber. It's a near-perfect recreation of one of the most infamous pieces of sci-fi tech in hollywood!
 <br/>
 <br/>
 <img src='/images/10.jpeg' width='800' height='auto'>"
