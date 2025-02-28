@@ -26,5 +26,3 @@ For the hardware, I used all 3D printed parts using white PLA filament and vario
 ## Design Flaws
 The idea of the robot was good, but the overall design wasn't great. Parts of the arm weren't flush when screwed together and the servo motors would have a hard time of lifting it. The magnets I used to transmit the data to the module components didn't work as well because the surface would need to be perfectly flat to work properly. They also lost some of their strength when I soldered wires to it.
 
-## Software
-
