@@ -40,4 +40,4 @@ Skills
 Service and leadership
 ======
 * Varsity Member of High School Robotics Team
-  * Helped with CAD and Mechanical engineering
+  * Head Pit Manager for the team
