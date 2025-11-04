@@ -1,4 +1,22 @@
-/* ===== Custom Dark Navbar Overrides ===== */
+/* ===== Global dark theme ===== */
+body,
+html {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/* Make all headings and paragraphs white */
+h1, h2, h3, h4, h5, h6,
+p, li, a, span, strong {
+  color: #fff !important;
+}
+
+/* Optional: dim secondary text a little */
+p, li {
+  color: #ddd !important;
+}
+
+/* ===== Navbar styling ===== */
 .masthead,
 .greedy-nav,
 .greedy-nav .visible-links,
@@ -8,38 +26,44 @@
   box-shadow: none !important;
 }
 
-.masthead__menu-item a {
+/* Make top bar taller */
+.masthead__inner-wrap {
+  padding: 1.2rem 2rem !important;  /* taller header */
+}
+
+/* Logo larger */
+.masthead__menu-item--lg img {
+  height: 64px !important;
+  width: auto !important;
+}
+
+/* White links/icons */
+.masthead__menu-item a,
+.greedy-nav a,
+.greedy-nav button {
   color: #fff !important;
-  text-decoration: none;
-  font-weight: 500;
 }
 
 .masthead__menu-item a:hover {
   opacity: 0.8;
 }
 
+/* Force icon images to invert (white on black) */
 .masthead__menu-item a img {
-  filter: brightness(0) invert(1); /* turn dark icons white */
+  filter: brightness(0) invert(1);
 }
 
-.greedy-nav .visible-links li a,
-.greedy-nav button,
-.greedy-nav .masthead__menu-item--lg a {
-  color: #fff !important;
+/* ===== Buttons (like "View My Projects") ===== */
+a, button, .btn {
+  color: #000;
+  background-color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
 }
 
-.greedy-nav button {
-  background: transparent !important;
+a:hover, button:hover, .btn:hover {
+  opacity: 0.8;
+  text-decoration: none;
 }
 
-.masthead__inner-wrap {
-  padding: 0.75rem 2rem !important;
-  background: #000 !important;
-}
-
-/* Optional: make nav bar sticky while scrolling */
-.masthead {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
