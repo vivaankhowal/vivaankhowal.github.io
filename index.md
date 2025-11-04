@@ -48,4 +48,3 @@ permalink: /
 <div class="feature__wrapper">
   {% include feature_row id="feature_row" type="left" %}
 </div>
-v>
