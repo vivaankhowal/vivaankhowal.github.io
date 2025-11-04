@@ -8,7 +8,7 @@ permalink: /
 
   <!-- Left side: text -->
   <div style="flex:1 1 380px; max-width:600px;">
-    <h1 style="font-size:2.5rem; margin-bottom:1rem;">Hi, I'm <span style="color:#00c8c8;">Vivaan Khowal</span></h1>
+    <h1 style="font-size:2.5rem; margin-bottom:1rem;">About Me</span></h1>
     <h2 style="font-weight:400; margin-bottom:1.5rem;">Maker • Engineer • Inventor</h2>
     <p style="line-height:1.6; font-size:1.1rem;">
       I design and build projects that fuse hardware and software — from ESP32-powered
@@ -31,7 +31,7 @@ permalink: /
 
   <!-- Right side: photo -->
   <div style="flex:0 1 300px; text-align:center;">
-    <img src="/vivaan-khowal-mugshot.jpg" alt="Vivaan Khowal" style="
+    <img src="images/vivaan-khowal-mugshot.jpg" alt="Vivaan Khowal" style="
         max-width:280px;
         width:100%;
         border-radius:50%;
