@@ -1,0 +1,38 @@
+/* === Force-apply dark theme === */
+html, body {
+  background:#000 !important;
+  color:#fff !important;
+}
+
+h1,h2,h3,h4,h5,h6,p,li,span,a,strong {
+  color:#fff !important;
+}
+
+/* Navbar */
+.masthead, .greedy-nav {
+  background:#000 !important;
+  border:none !important;
+  box-shadow:none !important;
+}
+
+.masthead__inner-wrap {
+  padding:1.2rem 2rem !important;     /* taller top bar */
+}
+
+.masthead__menu-item--lg img {
+  height:64px !important;             /* bigger logo */
+  width:auto !important;
+}
+
+.masthead__menu-item a {
+  color:#fff !important;
+  text-decoration:none;
+}
+
+.masthead__menu-item a:hover {
+  opacity:0.8;
+}
+
+.masthead__menu-item a img {
+  filter:brightness(0) invert(1);     /* turns dark icons white */
+}
