@@ -1,7 +1,7 @@
 main:
   - title: "Home"
     url: /
-    icon: /images/home-icon.png
+    icon: /images/Logo.png
   - title: "Projects"
     url: /portfolio/
     icon: /images/projects-icon.png
