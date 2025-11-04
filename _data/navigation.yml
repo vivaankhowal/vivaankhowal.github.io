@@ -1,7 +1,7 @@
 main:
   - title: "Home"
     url: /
-    icon: /images/Logo.png
+    icon: /images/home-icon.png
   - title: "Projects"
     url: /portfolio/
     icon: /images/projects-icon.png
@@ -14,4 +14,3 @@ main:
   - title: "Contact"
     url: /contact/
     icon: /images/contact-icon.png
-
