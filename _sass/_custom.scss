@@ -1,0 +1,45 @@
+/* ===== Custom Dark Navbar Overrides ===== */
+.masthead,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background-color: #000 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.masthead__menu-item a {
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.masthead__menu-item a:hover {
+  opacity: 0.8;
+}
+
+.masthead__menu-item a img {
+  filter: brightness(0) invert(1); /* turn dark icons white */
+}
+
+.greedy-nav .visible-links li a,
+.greedy-nav button,
+.greedy-nav .masthead__menu-item--lg a {
+  color: #fff !important;
+}
+
+.greedy-nav button {
+  background: transparent !important;
+}
+
+.masthead__inner-wrap {
+  padding: 0.75rem 2rem !important;
+  background: #000 !important;
+}
+
+/* Optional: make nav bar sticky while scrolling */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
