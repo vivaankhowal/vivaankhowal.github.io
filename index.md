@@ -9,7 +9,7 @@ permalink: /
   <!-- Left side: text -->
   <div style="flex:1 1 380px; max-width:600px;">
     <h1 style="font-size:2.5rem; margin-bottom:1rem;">Vivaan Khowal</h1>
-    <h2 style="font-weight:400; margin-bottom:1.5rem;">Maker • Engineer • Inventor</h2>
+    <h2 style="font-weight:400; margin-bottom:1.5rem;">High Schooler who loves Engineering</h2>
     <p style="line-height:1.6; font-size:1.1rem;">
       I design and build projects that fuse hardware and software — from ESP32-powered
       lightsabers to 5-axis robot arms and custom RC cars.
@@ -41,7 +41,7 @@ permalink: /
 </div>
 
 <section style="text-align:center; padding:2rem 0;">
-  <h3 style="margin-bottom:1rem;">Recent Highlights</h3>
+  <h3 style="margin-bottom:1rem;">Recent Projects</h3>
   <p>Explore a few of my latest creations:</p>
 </section>
 
