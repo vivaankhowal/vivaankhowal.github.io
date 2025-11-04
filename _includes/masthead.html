@@ -1,57 +1,17 @@
 {% include base_path %}
 
-<style>
-  /* ===== NAVBAR STYLING ===== */
-  .masthead {
-    background-color: #000;       /* Black background */
-    border-bottom: none;
-  }
-
-  /* Center & spacing tweaks */
-  .masthead__inner-wrap {
-    padding: 0.5rem 2rem;
-  }
-
-  /* Make all text + icons white */
-  .masthead a,
-  .masthead__menu-item a {
-    color: #fff !important;
-    text-decoration: none;
-    font-weight: 500;
-  }
-
-  .masthead__menu-item a:hover {
-    opacity: 0.8;
-  }
-
-  /* Invert icon colors if they’re dark PNGs */
-  .masthead__menu-item a img {
-    filter: brightness(0) invert(1);
-  }
-
-  /* Keep icons aligned nicely */
-  .masthead__menu-item a {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-</style>
-
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <!-- ===== LOGO (replaces name) ===== -->
+          <!-- Site Title -->
           <li class="masthead__menu-item masthead__menu-item--lg">
-            <a href="{{ base_path }}/">
-              <img src="/images/Logo.png" alt="Vivaan Khowal Logo"
-                   style="height:42px; width:auto; vertical-align:middle;">
-            </a>
+            <a href="{{ base_path }}/">{{ site.title }}</a>
           </li>
 
-          <!-- ===== NAVIGATION LINKS ===== -->
+          <!-- Navigation Links -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -60,9 +20,9 @@
             {% endif %}
 
             <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}">
+              <a href="{{ domain }}{{ link.url }}" style="display:flex; align-items:center; gap:6px;">
                 {% if link.icon %}
-                  <img src="{{ link.icon }}" alt="{{ link.title }}" style="height:24px; width:auto;">
+                  <img src="{{ link.icon }}" alt="{{ link.title }}" style="height:24px; width:auto; vertical-align:middle;">
                 {% else %}
                   {{ link.title }}
                 {% endif %}
