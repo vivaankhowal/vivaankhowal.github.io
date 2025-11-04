@@ -5,13 +5,18 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
+
         <ul class="visible-links">
-          <!-- Site Title -->
+          <!-- ===== LOGO replaces site title ===== -->
           <li class="masthead__menu-item masthead__menu-item--lg">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
+            <a href="{{ base_path }}/">
+              <img src="/images/Logo.png"
+                   alt="Vivaan Khowal Logo"
+                   style="height:42px; width:auto; vertical-align:middle;">
+            </a>
           </li>
 
-          <!-- Navigation Links -->
+          <!-- ===== Navigation Links ===== -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -20,9 +25,12 @@
             {% endif %}
 
             <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}" style="display:flex; align-items:center; gap:6px;">
+              <a href="{{ domain }}{{ link.url }}"
+                 style="display:flex; align-items:center; gap:6px;">
                 {% if link.icon %}
-                  <img src="{{ link.icon }}" alt="{{ link.title }}" style="height:24px; width:auto; vertical-align:middle;">
+                  <img src="{{ link.icon }}"
+                       alt="{{ link.title }}"
+                       style="height:24px; width:auto; vertical-align:middle;">
                 {% else %}
                   {{ link.title }}
                 {% endif %}
@@ -36,3 +44,4 @@
     </div>
   </div>
 </div>
+
