@@ -1,5 +1,7 @@
 ---
+layout: default
 title: "Clocks"
+thumbnail: /images/10.jpeg
 excerpt: "I've always wanted to build a clock for my room, but I built not one but two clocks. Here are the 2 clocks I built!
 <br/>
 <br/>
