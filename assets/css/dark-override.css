@@ -56,3 +56,43 @@ a:hover, button:hover, .btn:hover {
 .masthead__menu-item a img {
   filter:brightness(0) invert(1);     /* turns dark icons white */
 }
+
+/* === NAVBAR SIZE + CENTERING === */
+
+/* make the navbar taller */
+.masthead__inner-wrap {
+  padding: 1.5rem 2rem !important;   /* taller top bar */
+  min-height: 90px !important;       /* ensures logo and links fit */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* center all navigation links horizontally */
+.greedy-nav .visible-links {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+}
+
+/* make sure logo aligns nicely */
+.masthead__menu-item--lg {
+  margin-right: 2rem !important;  /* space between logo and links */
+}
+
+/* optional: shrink mobile nav icon spacing */
+.greedy-nav button {
+  margin-left: auto;
+}
+
+/* keep everything white */
+.masthead__menu-item a {
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.masthead__menu-item a:hover {
+  opacity: 0.8;
+}
+
