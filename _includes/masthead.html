@@ -4,44 +4,32 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-
         <ul class="visible-links">
-          <!-- ===== LOGO replaces site title ===== -->
-          <li class="masthead__menu-item masthead__menu-item--lg">
+
+          <!-- ===== LOGO ===== -->
+          <li class="masthead__menu-item masthead__menu-item--lg" style="margin-right: 2rem;">
             <a href="{{ base_path }}/">
               <img src="/images/logonobg.png"
                    alt="Vivaan Khowal Logo"
-                   style="height:10000px; width:auto;">
+                   style="height:80px; width:auto; vertical-align:middle;">
             </a>
           </li>
 
-          <!-- ===== Navigation Links ===== -->
+          <!-- ===== NAVIGATION LINKS ===== -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-
             <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}"
-                 style="display:flex; align-items:center; gap:6px;">
-                {% if link.icon %}
-                  <img src="{{ link.icon }}"
-                       alt="{{ link.title }}"
-                       style="height:24px; width:auto; vertical-align:middle;">
-                {% else %}
-                  {{ link.title }}
-                {% endif %}
+              <a href="{{ domain }}{{ link.url }}">
+                {{ link.title }}
               </a>
             </li>
           {% endfor %}
         </ul>
-
-        <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
-
