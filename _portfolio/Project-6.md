@@ -1,5 +1,7 @@
 ---
+layout: default
 title: "Cardboard Minecraft Wolf"
+thumbnail: /images/10.jpeg
 excerpt: "'Minecraft' was my childhood favorite video game and I still play it today, and one of my favorite mechanics is the ability to tame a pet wolf. So for my first project, I decided to bring it to life!
 <br/>
 <br/>
