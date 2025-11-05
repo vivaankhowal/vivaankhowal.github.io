@@ -96,3 +96,21 @@ a:hover, button:hover, .btn:hover {
   opacity: 0.8;
 }
 
+/* === NAVBAR LINK + BORDER STYLING === */
+
+/* remove hover underline or appearing line */
+.masthead__menu-item a,
+.masthead__menu-item a:visited,
+.masthead__menu-item a:hover {
+  text-decoration: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* add a thin white line under the navbar */
+.masthead {
+  border-bottom: 2px solid #fff !important;
+}
+
+
