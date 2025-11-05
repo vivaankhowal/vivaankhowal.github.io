@@ -1,7 +1,7 @@
 ---
 title: "Neopixel Lightsaber V3"
 excerpt: "This is the final version of the Neopixel Lightsaber. It's a near-perfect recreation of one of the most infamous pieces of sci-fi tech in Star Wars!
-thumbnail: /images/10.jpeg
+thumbnail: images/10.jpeg
 <br/>
 <br/>
 <img src='/images/10.jpeg' width='800' height='auto'>"
