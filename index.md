@@ -62,3 +62,6 @@ permalink: /
 <div class="feature__wrapper">
   {% include feature_row id="feature_row" type="left" %}
 </div>
+
+<div style="margin: 80px auto; max-width: 1100px; padding: 0 2rem;">
+</div>
