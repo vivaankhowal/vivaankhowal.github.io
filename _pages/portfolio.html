@@ -26,7 +26,10 @@ permalink: /portfolio/
         max-width:350px;
         transition:transform 0.3s ease;
       " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-        <img src="{{ site.baseurl }}/{{ project.thumbnail }}" alt="{{ project.title }}">
+        <img src="{{ site.baseurl }}/{{ project.thumbnail }}" 
+       alt="{{ project.title }}" 
+       style="width:100%; height:auto; border-radius:0; object-fit:cover; margin-bottom:1rem;">
+
           width:100%;
           height:auto;
           border-radius:0;
