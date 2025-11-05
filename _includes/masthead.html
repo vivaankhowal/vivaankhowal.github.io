@@ -2,9 +2,8 @@
 
 <!-- Sleek black sticky navbar -->
 <style>
-  /* Ensure all pages compensate for fixed header */
   body {
-    padding-top: 120px !important;
+    padding-top: 160px !important; /* adjust for taller navbar */
     background-color: #000;
     color: #fff;
   }
@@ -14,12 +13,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(0, 0, 0, 0.96);
     backdrop-filter: blur(6px);
-    padding: 1.8rem 0;
+    padding: 2.8rem 0; /* 👈 increased height here */
     z-index: 1000;
     border: none !important;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
   }
 
   .masthead * {
@@ -37,7 +36,7 @@
   }
 
   .masthead__logo img {
-    height: 90px;
+    height: 100px; /* 👈 increased logo size slightly */
     width: auto;
   }
 
@@ -85,8 +84,3 @@
 
   </div>
 </div>
-
-</div>
-
-<!-- Spacer to prevent content hiding behind navbar -->
-<div style="height:130px;"></div>
