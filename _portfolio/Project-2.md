@@ -1,5 +1,7 @@
 ---
+layout: default
 title: "Neopixel Lightsaber V2"
+thumbnail: images/10.jpeg
 excerpt: "This is version two of the Neopixel Lightsaber that I built all on my own this time. It's the second step on the mission to bring this tech to life!
 <br/>
 <br/>
