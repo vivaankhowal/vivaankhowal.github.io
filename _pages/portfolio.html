@@ -1,14 +1,40 @@
----
-layout: archive
-title: "Portfolio"
-permalink: /portfolio/
-author_profile: true
----
-
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<section style="
+  background-color:#000;
+  color:#fff;
+  padding:4rem 0;
+">
+  <div style="
+    max-width:1200px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap:2.5rem;
+    justify-items:center;
+  ">
+    {% for project in site.portfolio %}
+      <a href="{{ project.url | relative_url }}" style="
+        text-decoration:none;
+        color:#fff;
+        text-align:center;
+        width:100%;
+        max-width:350px;
+      ">
+        <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}" style="
+          width:100%;
+          height:auto;
+          border-radius:0;
+          object-fit:cover;
+          margin-bottom:1rem;
+          transition:transform 0.3s ease, opacity 0.3s ease;
+        ">
+        <h3 style="
+          font-size:1.2rem;
+          font-weight:500;
+          margin-top:0.5rem;
+        ">
+          {{ project.title }}
+        </h3>
+      </a>
+    {% endfor %}
+  </div>
+</section>
