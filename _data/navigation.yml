@@ -1,16 +1,9 @@
 main:
   - title: "Home"
     url: /
-    icon: /images/home-icon.png
   - title: "Projects"
     url: /portfolio/
-    icon: /images/projects-icon.png
-  - title: "About"
-    url: /about/
-    icon: /images/about-icon.png
   - title: "Resume"
     url: /cv/
-    icon: /images/resume-icon.png
   - title: "Contact"
     url: /contact/
-    icon: /images/contact-icon.png
