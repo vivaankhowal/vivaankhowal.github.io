@@ -5,6 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
+url: "https://vivaan.khowal.com"
+baseurl: ""   # leave blank since you use a custom domain
 
 # Basic Site Settings
 locale                   : "en-US"
@@ -217,7 +219,7 @@ collections:
     permalink: /:collection/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /portfolio/:name/
   talks:
     output: true
     permalink: /:collection/:path/
