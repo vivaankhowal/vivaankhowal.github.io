@@ -4,28 +4,42 @@ title: "Projects"
 permalink: /portfolio/
 ---
 
-<section style="background-color:#000; color:#fff; padding:4rem 2rem;">
-  <div style="max-width:1000px; margin:0 auto;">
-    <h1 style="text-align:center; font-size:2rem; margin-bottom:2rem;">Projects</h1>
-
+<section style="
+  background-color:#000;
+  color:#fff;
+  padding:4rem 0;
+">
+  <div style="
+    max-width:1200px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap:2.5rem;
+    justify-items:center;
+  ">
     {% for project in site.portfolio %}
-      <article style="margin-bottom:4rem; border-bottom:1px solid #333; padding-bottom:2rem;">
-        <h2 style="font-size:1.5rem; color:#fff; margin-bottom:1rem;">
-          <a href="{{ project.url | relative_url }}" style="color:#fff; text-decoration:none;">
-            {{ project.title }}
-          </a>
-        </h2>
-
-        {% if project.thumbnail %}
-          <img src="{{ site.baseurl }}{{ project.thumbnail }}" 
-               alt="{{ project.title }}" 
-               style="width:100%; max-width:700px; height:auto; display:block; margin:1rem 0; border-radius:6px;">
-        {% endif %}
-
-        <div style="line-height:1.6; color:#ccc;">
-          {{ project.content }}
-        </div>
-      </article>
+      <a href="{{ project.url | relative_url }}" style="
+        text-decoration:none;
+        color:#fff;
+        text-align:center;
+        width:100%;
+        max-width:350px;
+        transition:transform 0.3s ease;
+      " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        
+        <img 
+          src="{{ project.thumbnail | relative_url }}" 
+          alt="{{ project.title }}" 
+          style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:0; margin-bottom:1rem;">
+        
+        <h3 style="
+          font-size:1.1rem;
+          font-weight:500;
+          margin-top:0.5rem;
+        ">
+          {{ project.title }}
+        </h3>
+      </a>
     {% endfor %}
   </div>
 </section>
