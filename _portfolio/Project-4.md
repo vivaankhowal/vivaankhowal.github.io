@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Multi-purpose Robot Arm V1"
+title: "A.R.T.I.S"
 thumbnail: /images/10.jpeg
 excerpt: "This was the hardest project I'd ever attempted, but also the coolest. I've always wanted a robot arm in my room but I could always use a ton of hands for different tasks, so why not build a robot that does it all?
 <br/>
