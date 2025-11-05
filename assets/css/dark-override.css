@@ -33,6 +33,26 @@ h1,h2,h3,h4,h5,h6,p,li,span,a,strong {
   opacity:0.8;
 }
 
+/* === Buttons: white background with black text === */
+a, a:visited, button, .btn {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: none !important;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, button:hover, .btn:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #000 !important;
+  background-color: #e6e6e6 !important; /* subtle hover tint */
+}
+
+
 .masthead__menu-item a img {
   filter:brightness(0) invert(1);     /* turns dark icons white */
 }
