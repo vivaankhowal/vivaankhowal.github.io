@@ -1,13 +1,17 @@
 {% include base_path %}
 
-<!-- Clean dark navbar -->
+<!-- Sleek black sticky navbar -->
 <div class="masthead"
      style="
-       background:#000;
-       padding:1.8rem 0 2.5rem 0;
-       margin-bottom:60px;
-       border-bottom:2px solid #fff;
-       box-shadow: 0 2px 10px rgba(255,255,255,0.1);
+       position:fixed;
+       top:0;
+       left:0;
+       width:100%;
+       background:rgba(0,0,0,0.95);
+       backdrop-filter:blur(6px);
+       padding:1.8rem 0;
+       z-index:1000;
+       box-shadow:0 2px 10px rgba(0,0,0,0.6);
      ">
   <div style="
        display:flex;
@@ -27,7 +31,6 @@
          align-items:center;
          justify-content:center;
          text-decoration:none;
-         margin-bottom:0.5rem;
        ">
       <img src="/images/logonobg.png"
            alt="Vivaan Khowal Logo"
@@ -69,3 +72,6 @@
 
   </div>
 </div>
+
+<!-- Spacer to prevent content hiding behind navbar -->
+<div style="height:130px;"></div>
