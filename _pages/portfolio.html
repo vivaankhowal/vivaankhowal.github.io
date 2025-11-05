@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Projects"
+permalink: /portfolio/
+---
+
 <section style="
   background-color:#000;
   color:#fff;
@@ -18,14 +24,14 @@
         text-align:center;
         width:100%;
         max-width:350px;
-      ">
+        transition:transform 0.3s ease;
+      " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
         <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}" style="
           width:100%;
           height:auto;
           border-radius:0;
           object-fit:cover;
           margin-bottom:1rem;
-          transition:transform 0.3s ease, opacity 0.3s ease;
         ">
         <h3 style="
           font-size:1.2rem;
