@@ -1,23 +1,63 @@
 {% include base_path %}
 
 <!-- Clean dark navbar -->
-<div class="masthead" style="background:#000; border-bottom:2px solid #fff; padding:1.2rem 0;">
-  <div style="display:flex; align-items:center; justify-content:center; gap:3rem; flex-wrap:wrap;">
+<div class="masthead"
+     style="
+       background:#000;
+       border-bottom:2px solid #fff;
+       padding:1.8rem 0;
+       margin-bottom:60px;
+     ">
+  <div style="
+       display:flex;
+       align-items:center;
+       justify-content:center;
+       gap:4rem;
+       flex-wrap:wrap;
+       width:100%;
+       max-width:1200px;
+       margin:0 auto;
+     ">
 
     <!-- Logo -->
-    <a href="{{ base_path }}/" style="display:flex; align-items:center; gap:1rem; text-decoration:none;">
+    <a href="{{ base_path }}/"
+       style="
+         display:flex;
+         align-items:center;
+         justify-content:center;
+         text-decoration:none;
+       ">
       <img src="/images/logonobg.png"
            alt="Vivaan Khowal Logo"
-           style="height:70px; width:auto;">
+           style="
+             height:90px;
+             width:auto;
+             vertical-align:middle;
+           ">
     </a>
 
-    <!-- Nav Links -->
+    <!-- Navigation Links -->
     <nav>
-      <ul style="display:flex; align-items:center; gap:2.5rem; list-style:none; margin:0; padding:0;">
+      <ul style="
+           display:flex;
+           align-items:center;
+           justify-content:center;
+           gap:3rem;
+           list-style:none;
+           margin:0;
+           padding:0;
+         ">
         {% for link in site.data.navigation.main %}
           <li>
             <a href="{{ base_path }}{{ link.url }}"
-               style="color:#fff; font-size:1.15rem; font-weight:500; text-decoration:none;">
+               style="
+                 color:#fff;
+                 font-size:1.25rem;
+                 font-weight:500;
+                 text-decoration:none;
+                 letter-spacing:0.5px;
+                 transition:opacity 0.2s ease;
+               ">
               {{ link.title }}
             </a>
           </li>
@@ -27,3 +67,4 @@
 
   </div>
 </div>
+
