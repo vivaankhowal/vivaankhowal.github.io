@@ -6,6 +6,20 @@ permalink: /
 
 <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; padding:4rem 2rem; gap:2rem;">
 
+<style>
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+
+  a { color: #fff; text-decoration: none; }
+  a:hover { color: #ccc; }
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+  }
+</style>
+
   <!-- Left side: text -->
   <div style="flex:1 1 380px; max-width:600px;">
     <h1 style="font-size:2.5rem; margin-bottom:1rem;">Vivaan Khowal</h1>
