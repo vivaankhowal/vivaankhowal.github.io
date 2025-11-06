@@ -45,6 +45,8 @@ Click here to see the full config file:
 The very first version of the lightsaber was more of an experiment than a finished product. Built entirely out of cardboard and foam, it was held together with duct tape and powered by an Arduino Uno connected through a maze of jumper wires and a breadboard.
 <p></p>
 It barely held itself together—connections came loose constantly, and the hilt couldn’t even be swung without something falling apart. But despite its rough edges, it was the project that started it all. This early prototype taught me the basics of mechanical and electrical engineering, and it also taught me just how much work goes into making even a simple circuit function reliably.
+<p></p>
+<img src='/images///Lightsaber V1.jpeg' width='300' height='auto'> 
 
 ## Version 2
 The second version was where things finally started to feel real. The hilt was now 3D-printed, giving the saber a solid structure compared to the cardboard and foam mess of Version 1. It was still held together with duct tape, but it was undeniably stronger and far more functional.
@@ -53,7 +55,8 @@ This time, the Arduino Uno was swapped out for a Nano, the code was cleaner, and
 <p></p>
 But while the improvements were massive, it was far from perfect. The saber was incredibly heavy, with terrible weight distribution that made it awkward to hold. The hilt had no aesthetic design—just a rough, functional shell meant to test what was possible. Still, this version proved that I could take an idea from prototype to something that actually worked, even if it wasn’t yet beautiful.
 <p></p>
-<img src='/images/Chess Main View.jpg' width='400' height='auto'>
+<img src='/images//IMG_5417.jpg' width='300' height='auto'> 
+<img src='/IMG_0195.JPEG' width='300' height='auto'>
 
 ## Takeaways
 If there’s one thing this project taught me, it’s that every build comes with failure—and that’s okay. You don’t always get it right on the first try, and sometimes your best lessons come from watching something fall apart. Version after version, I learned that a failure doesn’t define the outcome of a project or the skill of its creator. What truly matters is how you respond to it, what you learn from it, and how you use that experience to build something stronger, smarter, and better the next time.
