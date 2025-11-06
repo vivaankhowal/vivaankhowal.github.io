@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Robot Cart"
-thumbnail: /images/knightfall-logo.png
+thumbnail: /images/robotcart-logo.png
 collection: Portfolio
 ---
 
