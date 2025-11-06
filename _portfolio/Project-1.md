@@ -50,6 +50,8 @@ It barely held itself together—connections came loose constantly, and the hilt
 <img src='/images///Lightsaber V1.jpeg' width='300' height='auto'> 
 <img src='/v1nl.png' width='600' height='auto'> 
 Here is the Arduino Code for V1:
+
+```cpp
 #include <Adafruit_NeoPixel.h>
 
 #define PIN 3    // input pin Neopixel is attached to
@@ -92,7 +94,7 @@ void loop() {
 
   buttonStateOld = buttonStateNew; // Fix: Always update button state
 }
-
+```
 
 ## Version 2
 The second version was where things finally started to feel real. The hilt was now 3D-printed, giving the saber a solid structure compared to the cardboard and foam mess of Version 1. It was still held together with duct tape, but it was undeniably stronger and far more functional.
