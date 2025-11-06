@@ -47,6 +47,8 @@ The very first version of the lightsaber was more of an experiment than a finish
 It barely held itself together—connections came loose constantly, and the hilt couldn’t even be swung without something falling apart. But despite its rough edges, it was the project that started it all. This early prototype taught me the basics of mechanical and electrical engineering, and it also taught me just how much work goes into making even a simple circuit function reliably.
 <p></p>
 <img src='/images///Lightsaber V1.jpeg' width='300' height='auto'> 
+<img src='/v1nl.png' width='600' height='auto'> 
+
 
 ## Version 2
 The second version was where things finally started to feel real. The hilt was now 3D-printed, giving the saber a solid structure compared to the cardboard and foam mess of Version 1. It was still held together with duct tape, but it was undeniably stronger and far more functional.
