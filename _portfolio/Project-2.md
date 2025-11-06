@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Giant Spider"
-thumbnail: /images/knightfall-logo.png
+thumbnail: /images/spider-logo.png
 collection: Portfolio
 ---
 
