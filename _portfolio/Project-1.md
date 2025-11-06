@@ -41,6 +41,7 @@ Test videos (Audio is kind of faint):
 </video>
 <p></p>
 
+
 ## Hardware and Electronics
 For the mechanical design, I wanted the hilt to feel authentic. Something that looked and handled like a real Star Wars lightsaber. I modeled and 3D-printed the entire body from scratch, securing each part using built-in threads for strength and adding a screw on cap at the base to protect the speaker while keeping the design clean and functional.
 <p></p>
