@@ -38,19 +38,6 @@ Once the foam cured, it was spray painted black using Flex Seal for added durabi
 ## Leg Mechanism
 Each leg is built from three segments of pipe insulation, joined together with wood glue for flexibility and strength. A 10-gauge metal wire runs through each leg to hold its shape, with custom 3D printed tips that complete the spider-like look. The wire extends slightly at the end, allowing the legs to anchor securely into the ground even in strong winds. On the opposite end, each leg connects to the body through a PVC joint that fits into a 90-degree PVC angle connector, making the whole setup easy to assemble and store after Halloween. In total, the spider has eight fully poseable legs.
 <p></p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
-  <video 
-    autoplay 
-    loop 
-    muted 
-    playsinline 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-    <source src="/images/spiderleg.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<p></p>
 <img src='/images/IMG_2676.jpg' width='200' height='auto'>
 <img src='/images/cadlegend.png' width='200' height='auto'>
 <p></p>
