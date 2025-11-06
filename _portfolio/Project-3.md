@@ -5,11 +5,21 @@ thumbnail: /images/f1clock-logo.jpg
 collection: Portfolio
 ---
 ## About
-This project isn't as impressive as my other builds, but it's one of the most well designed. It's a wall clock fully 3D printed and 3D modeled with inspiration taken from a Formula 1 Car wheel. As an avid F1 fan myself, this clock was super fun to CAD and design. The full clock is 3D printed and controlled using a simple Quartz Clock mechanism on the back. 
+This project might not be the most complex one I’ve built, but it’s easily one of the most refined. It’s a fully 3D-modeled and 3D-printed wall clock inspired by the design of a Formula 1 car wheel. I focused on achieving aesthetics, clean geometry, and precise tolerances to give it both visual appeal and functional reliability. As an F1 enthusiast, translating the sport’s engineering aesthetics into a timepiece made this one of my favorite design exercises. 
 <p></p>
-<img src='/images/Lightsaber V1.jpeg' width='300' height='auto'>
+<img src='/images/isometric.png' width='300' height='auto'>
 
 ## Design
-Although it did technically work as a lightsaber, there were a lot of problems with it. Since everything was held with glue and tape, it wasn't nearly strong enough for any dueling and the cardboard hilt looked very makeshift and scrappy. None of the components were bolted down properly so you couldn't properly swing it without the fear of everything falling out. It was powered using a 9V Battery and since the LED strips were 5V, there was a constant risk of overheating and circuit damage (the saber would stay on for a minute max before the Arduino would heat up). The components were also too big to properly fit in the lightsaber hilt which also made it very bulky. There were a lot of problems with this version, but the important thing is there is a lot of room for improvement.
+The clock is completely 3D printed and powered by a simple quartz clock mechanism on the back, which runs on a single AA battery. It can be hung on a wall or placed on a flat surface using a custom stand I designed. The build includes 53 different 3D printed parts of all shapes and sizes, held together with very little glue and no screws. Almost every piece fits together perfectly through friction, making the assembly clean, simple, and satisfying.
+<p></p>
+In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
+<a href="https://cad.onshape.com/documents/e6dff4ad220978e818dbc0f6/w/884cd76de825656b4f0e0202/e/93f1644b66b1bcfb52de1cb6?renderMode=0&uiState=690cba32d2f0a95b09e4ae7d">Click here</a>
+<p></p>
+<img src='/images/f1clockfront.png' width='300' height='auto'>
+<p></p>
+<img src='/images/f1clockfrontstand.png' width='300' height='auto'>
+<p></p>
+<img src='/images/f1clockexploded.png' width='300' height='auto'>
+
 
 
