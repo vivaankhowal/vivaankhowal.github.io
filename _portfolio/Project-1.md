@@ -49,52 +49,7 @@ It barely held itself together—connections came loose constantly, and the hilt
 <p></p>
 <img src='/images///Lightsaber V1.jpeg' width='300' height='auto'> 
 <img src='/v1nl.png' width='600' height='auto'> 
-Here is the Arduino Code for V1:
-
-```cpp
-#include <Adafruit_NeoPixel.h>
-
-#define PIN 3    // input pin Neopixel is attached to
-#define NUMPIXELS 5 // number of neopixels in strip
-
-Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
-
-int delayVal = 5; // timing delay in milliseconds
-int ledState = 0;
-int buttonStateNew;
-int buttonPin = 2;
-int buttonStateOld = 1;
-
-void setup() {  
-  pixels.begin();
-  pinMode(buttonPin, INPUT_PULLUP); 
-}
-
-void loop() {
-  buttonStateNew = digitalRead(buttonPin);
-  
-  if (buttonStateOld == 0 && buttonStateNew == 1) {  // Button press detected
-    if (ledState == 0) {
-      for (int i = 0; i < NUMPIXELS; i++) {
-        pixels.setPixelColor(i, pixels.Color(255, 0, 0));
-        pixels.show();
-        delay(1);
-      }
-      ledState = 1;
-    } 
-    else { 
-      for (int i = NUMPIXELS - 1; i >= 0; i--) {
-        pixels.setPixelColor(i, pixels.Color(0, 0, 0));
-        pixels.show();
-        delay(1);
-      }
-      ledState = 0;
-    }
-  }
-
-  buttonStateOld = buttonStateNew; // Fix: Always update button state
-}
-```
+<p></p>
 
 ## Version 2
 The second version was where things finally started to feel real. The hilt was now 3D-printed, giving the saber a solid structure compared to the cardboard and foam mess of Version 1. It was still held together with duct tape, but it was undeniably stronger and far more functional.
@@ -106,5 +61,3 @@ But while the improvements were massive, it was far from perfect. The saber was 
 <img src='/images//IMG_5417.jpg' width='300' height='auto'> 
 <img src='/IMG_0195.JPEG' width='300' height='auto'>
 
-## Takeaways
-If there’s one thing this project taught me, it’s that every build comes with failure—and that’s okay. You don’t always get it right on the first try, and sometimes your best lessons come from watching something fall apart. Version after version, I learned that a failure doesn’t define the outcome of a project or the skill of its creator. What truly matters is how you respond to it, what you learn from it, and how you use that experience to build something stronger, smarter, and better the next time.

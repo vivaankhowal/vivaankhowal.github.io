@@ -9,6 +9,7 @@
  *  - https://twitter.com/mmistakes
  *
 */
+/* Fix long code blocks */
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
@@ -39,3 +40,30 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Force multiline code wrapping on all pages */
+/* =========================================================
+   Force multiline code blocks — no horizontal scrolling
+   ========================================================= */
+div.highlighter-rouge,
+figure.highlight,
+.highlight pre,
+.highlight code,
+pre,
+pre code,
+code {
+  white-space: pre-wrap !important;     /* Wrap long lines */
+  word-break: break-word !important;    /* Break very long words */
+  overflow-x: visible !important;       /* Disable horizontal scrollbar */
+  overflow-y: visible !important;       /* Allow full vertical height */
+  background-color: #111 !important;    /* Match your site background */
+  color: #00ffcc !important;            /* Neon cyan text */
+  padding: 15px !important;
+  border-radius: 8px !important;
+  display: block !important;
+  font-family: "Fira Code", monospace !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+}
+
+
