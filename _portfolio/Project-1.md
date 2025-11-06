@@ -52,7 +52,7 @@ It barely held itself together—connections came loose constantly, and the hilt
 <p></p>
 Here is the Arduino Code for V1:
 
-<pre><code>
+<pre><code class="language-cpp">
 #include <Adafruit_NeoPixel.h>
 
 #define PIN 3    // input pin Neopixel is attached to
