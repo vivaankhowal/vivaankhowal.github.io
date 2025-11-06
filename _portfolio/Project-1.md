@@ -52,6 +52,7 @@ It barely held itself together—connections came loose constantly, and the hilt
 <p></p>
 Here is the Arduino Code for V1:
 <p></p>
+
 ```cpp
 #include <Adafruit_NeoPixel.h>
 
