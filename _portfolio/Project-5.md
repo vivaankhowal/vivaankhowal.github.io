@@ -28,21 +28,15 @@ Its capable of 8 different color and 1 extra rainbow mode:
 <img src='/images/pink.jpeg' width='200' height='auto'>
 <img src='/images/white.jpeg' width='200' height='auto'>
 
+Wiring Diagram:
+
+
 <p></p>
-For the electrical parts, I used an Arduino Nano as the microcontroller and a 28BYJ-48 Stepper Motor connected to a ULN2003 Stepper Driver Module. For the mechanical aspect, the way it works is there is a worm gear connected to a spur gear in a 90-degree angle in a 1:12 gear ratio. Inside the main clock, there are 2 big gear rotors: one connected to the worm gear for the hours, and the other connected to the spur gear for the minutes. In the code for the clock, the stepper motor is set to move a certain number of steps every minute. The hour hand also levitates because there are Neodymium magnets inside the hand and in the rotor.
-<p></p>
-(Close up picture of the levitating hour hand)
-<p></p>
-<img src='/images/27.jpeg' width='300' height='auto'>
-<p></p>
-Here is the link to the Instructables page:
-<a href="https://www.instructables.com/Hollow-Clock-V/">Click here</a>
-<p></p>
-<img src='/images/23.jpeg' width='300' height='auto'>
-<img src='/images/26.jpeg' width='300' height='auto'>
-<p></p>
-Here is the code:
-<p></p>
+In all of my projects, this is the one with the most complicated software. The software for the Arc Reactor Clock is written in Arduino C++ and runs on the ESP32-C3 Mini. It controls the clock display, LED animations, and alarm behavior while allowing wireless configuration through Bluetooth Low Energy (BLE). When powered on, the ESP32 initializes the TM1637 display to show the current time and starts the NeoPixel animations based on the selected mode, such as a solid color or a smooth rainbow effect. The code keeps track of time internally using the ESP32’s built-in clock and updates the display every second. The alarm system is handled in software by comparing the current time to a stored alarm time, triggering the buzzer and LED flashing pattern when they match.
+
+The BLE logic allows the user to control and customize the clock using their phone or computer. Once connected via Bluetooth, the ESP32 listens for text-based commands that let the user adjust settings in real time. For example, sending "settime YYYY-MM-DD HH:MM:SS" updates the current time, "setcolor R,G,B" changes the LED color, and "setmode rainbow" activates the rainbow animation. There are also commands to set or stop the alarm. When the alarm is active, the LEDs flash green while the buzzer pulses, and pressing the physical button or sending a Bluetooth command stops the alarm and restores the previous lighting mode. This setup makes the Arc Reactor Clock fully interactive, combining the look of an Iron Man reactor with the flexibility of smart Bluetooth control.
+
+Here is the full code:
 ```cpp
 #include <BLEDevice.h>
 #include <BLEServer.h>
