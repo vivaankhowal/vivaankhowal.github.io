@@ -17,6 +17,22 @@ The hilt was designed entirely from scratch and refined through several iteratio
 
 In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
 <a href="https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c">Click here</a>
+<p></p>
+All the colors it can do:
+<img src='/images/Lblue.jpeg' width='200' height='auto'> 
+<img src='/images/Lgreen.jpeg' width='200' height='auto'> 
+<img src='/images/Lpurple.jpeg' width='200' height='auto'> 
+<img src='/images/Lorange.jpeg' width='200' height='auto'> 
+<img src='/images/Lyellow.jpeg' width='200' height='auto'> 
+<img src='/images/Lcyan.jpeg' width='200' height='auto'> 
+<img src='/images/Lred.jpeg' width='200' height='auto'> 
+<img src='/images/Lwhite.jpeg' width='200' height='auto'> 
+
+Test video of one of the modes:
+<video width="600" controls>
+  <source src="/images/lightsabertest.mp4" type="video/mp4">
+</video>
+
 
 ## Hardware and Electronics
 For the mechanical design, I wanted the hilt to feel authentic. Something that looked and handled like a real Star Wars lightsaber. I modeled and 3D-printed the entire body from scratch, securing each part using built-in threads for strength and adding a screw on cap at the base to protect the speaker while keeping the design clean and functional.
@@ -25,7 +41,10 @@ Inside, the real magic happens. Instead of a simple Arduino, I used a Proffieboa
 <p></p>
 The hilt features one control button with various types of inputs triggering various actions. Power comes from a 3.7 V 18650 Li-ion battery with a 3500 mAh capacity and despite drawing around 2.5 A, the saber can run for just over an hour on a single charge. Finally, a 2 W 8 Ω speaker delivers the signature hum and clash sounds, all within a 3D printed chassis to keep everything protected.
 <p></p>
-<img src='/images/lightsaberwiring.png' width='600' height='auto'> 
+<img src='/images/lightsaberwiring.png' width='400' height='auto'> 
+<img src='/images/handlesplit.jpeg' width='400' height='auto'> 
+<img src='/images/chassis.jpeg' width='400' height='auto'> 
+
 
 ## Software
 <p></p>
