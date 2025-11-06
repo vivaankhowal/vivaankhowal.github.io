@@ -25,6 +25,9 @@ The body frame is built from chicken wire, carefully shaped into separate head a
 <p></p>
 <img src='/images/IMG_2671.jpg' width='400' height='auto'>
 
+In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
+<a href="https://cad.onshape.com/documents/6e1e0cfbb36ad3f67363befc/w/137c13fd34cc4fea0c91e1be/e/6dd0ec0261e31aa3d70ea7a2">Click here</a>
+
 Once the foam cured, it was spray painted black using Flex Seal for added durability and weather resistance. The eyes and fangs were 3D printed from PLA for a clean, detailed finish. On the underside, eight PVC 90-degree connectors provide mounting points for the legs, allowing for sturdy attachment and easy disassembly.
 <p></p>
 <img src='/images/IMG_2685.jpg' width='400' height='auto'>
