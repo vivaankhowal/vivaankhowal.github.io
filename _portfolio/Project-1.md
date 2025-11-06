@@ -32,7 +32,7 @@ All the colors it can do:
 <p></p>
 
 Test video of one of the modes:
-<video width="600" controls>
+<video width="200" controls>
   <source src="/images/lightsabertest.mp4" type="video/mp4">
 </video>
 
