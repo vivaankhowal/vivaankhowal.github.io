@@ -34,9 +34,9 @@ Each Proffie config file is broken into four key sections. The first defines the
 <p></p>
 After hours of trial, tweaking, and re-uploads, seeing the blade ignite exactly how I imagined: perfect color transitions, synchronized sound, and responsive motion made it all worth it.
 
-
+Click here to see the full config file:
 <a href="/images/Proffie Config.rtf" download>
-  Click here to see the full config file:
+  Full Config File
 </a>
 
 
