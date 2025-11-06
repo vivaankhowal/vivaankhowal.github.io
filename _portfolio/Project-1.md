@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Neopixel Lightsaber V3"
-thumbnail: images/10.jpeg
+thumbnail: images/lightsaber-logo.jpg
 excerpt: "This is the final version of the Neopixel Lightsaber. It's a near-perfect recreation of one of the most infamous pieces of sci-fi tech in Star Wars!
 <br/>
 <br/>
