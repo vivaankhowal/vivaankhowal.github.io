@@ -9,7 +9,7 @@ excerpt: "This is the final version of the Neopixel Lightsaber. It's a near-perf
 collection: Portfolio
 ---
 ## About
-For the third and final version, I didn't hold anything back. I poured a ton of effort into research for the components, the features, the power, and even the actual design of the hilt. This version also features a 3D-printed hilt but it is modeled after an actual Star Wars character. This one features many features as it does in the movie like different colors, swinging sound effects, cool ignition and deactivation effects, and even tip drag and flash on clash.
+This is a real working Neopixel Lightsaber. This project is a culmination of my passion for engineering, design, and science fiction. Inspired by Star Wars, I set out to build a fully functional, movie-accurate lightsaber from scratch by combining 3D printing, embedded electronics, and programming to bring a legendary piece of technology to life. Over several versions, I refined every aspect of the build, from mechanical design and internal wiring to software configuration and blade effects, learning how to merge aesthetics with real engineering functionality along the way. This is the project that kickstarted my journey as an engineer.
 <p></p>
 <img src='/images/10.jpeg' width='700' height='auto'>
 <p></p>
