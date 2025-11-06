@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "F1 Wheel Clock"
-thumbnail: /images/10.jpeg
+thumbnail: /images/f1clock-logo.jpg
 collection: Portfolio
 ---
 ## About
