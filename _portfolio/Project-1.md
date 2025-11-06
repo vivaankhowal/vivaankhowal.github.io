@@ -6,6 +6,8 @@ thumbnail: /images/lightsaber-logo.jpg
 ## About
 This is a real working Neopixel Lightsaber. This project is a culmination of my passion for engineering, design, and science fiction. Inspired by Star Wars, I set out to build a fully functional, movie-accurate lightsaber from scratch by combining 3D printing, embedded electronics, and programming to bring a legendary piece of technology to life. Over several versions, I refined every aspect of the build, from mechanical design and internal wiring to software configuration and blade effects, learning how to merge aesthetics with real engineering functionality along the way. This is the project that kickstarted my journey as an engineer.
 
+The lightsaber has motion reactive sound, different ignition techniques like sharp-twisting the hilt, a button ignition, a swing ignition, or a stab ignition. It also has 14 different colors and modes, with some of them as basic colors and others as characterm modes based off of real Star Wars characters like Luke Skywalker and Obi Wan Kenobi.
+
 ## CAD Design
 I designed all the CAD files in Onshape, the 3D modeling software I use for all my projects. Each component of the lightsaber was printed on my Prusa Mk4 using a mix of PETG and PLA filaments in various colors. The hilt was carefully engineered to strike a balance between sleekness and strength—light and thin enough for comfortable swings, yet durable enough to handle light dueling and solid impacts without compromising its structure. The parts of the hilt are threaded for easy assembly/disassembly, and the electronics were put inside a custom chassis for easy removable and problem diagnosis.
 
