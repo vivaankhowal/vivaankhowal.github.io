@@ -1,12 +1,7 @@
 ---
-layout: default
+layout: project
 title: "A.R.T.I.S"
 thumbnail: /images/artis-logo.png
-excerpt: "This was the hardest project I'd ever attempted, but also the coolest. I've always wanted a robot arm in my room but I could always use a ton of hands for different tasks, so why not build a robot that does it all?
-<br/>
-<br/>
-<img src='/images/12.jpeg' width='400' height='auto' >"
-
 collection: Portfolio
 ---
 
