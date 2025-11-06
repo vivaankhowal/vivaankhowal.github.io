@@ -12,13 +12,12 @@ The idea for this clock is something I saw online, but I wanted to modify it and
 Here is the source: 
 <a href="https://www.instructables.com/Iron-Man-Arc-Reactor-Clock/">Click here</a>
 
+## Hardware
+Just like all my other projects, this one is also 3D modeled in Onshape. The clock is made almost entirely of 3D printed PLA parts 
 
 
 <p></p>
 <img src='/images/25.jpeg' width='400' height='auto'>
-
-## Hardware
-The 
 
 <p></p>
 For the electrical parts, I used an Arduino Nano as the microcontroller and a 28BYJ-48 Stepper Motor connected to a ULN2003 Stepper Driver Module. For the mechanical aspect, the way it works is there is a worm gear connected to a spur gear in a 90-degree angle in a 1:12 gear ratio. Inside the main clock, there are 2 big gear rotors: one connected to the worm gear for the hours, and the other connected to the spur gear for the minutes. In the code for the clock, the stepper motor is set to move a certain number of steps every minute. The hour hand also levitates because there are Neodymium magnets inside the hand and in the rotor.
