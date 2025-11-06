@@ -21,11 +21,15 @@ For the controls, the cabinet has two joystick setups, one blue and one red, eac
 Sound comes from a pair of large speakers powered by a small amplifier board, giving the games strong, full audio. The cabinet also includes LED strips for accent lighting, making it stand out even more when powered on. Every wire and connection is arranged neatly to keep the inside organized and easy to work on. Altogether, the hardware brings together the feel of a classic arcade machine with a simple, modern setup that’s fun to build and play.
 <p></p>
 <img src="/IMG_2651.jpeg" width="400" style="transform: rotate(90deg);">
+<p></p>
+In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
+<a href="https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c">Click here</a>
 
 ## Software
 The arcade cabinet runs on RetroPie, a lightweight Linux-based operating system designed for retro gaming. Installed on the Raspberry Pi, RetroPie allows seamless emulation of classic arcade and console systems such as NES, SNES, Sega Genesis, Atari, and more. The software automatically detects the USB encoder boards connected to the joysticks and buttons, allowing them to function as standard game controllers without any extra configuration. Through the EmulationStation interface, the system provides an easy-to-navigate menu where each game can be browsed and launched with a single press.
 
 All of the games and emulators are stored on a USB stick connected to the Raspberry Pi, and additional ROMs can be added via USB or Wi-Fi transfer. The button layout and joystick mappings were customized through RetroPie’s input configuration menu, ensuring that both players have accurate and responsive controls. Audio is handled through the Pi’s 3.5 mm output and amplified by a small stereo module that powers the two built-in speakers. The software setup also includes startup scripts to automatically launch the RetroPie interface at boot, creating a plug-and-play experience. Once the physical cabinet is complete, the software will be expanded with custom themes, startup animations, and LED lighting effects synchronized with gameplay to give it that true arcade feel.
 
+In case you would like to see Retropie or learn more, here is the link: 
+<a href="https://retropie.org.uk/">Click here</a>
 
-https://retropie.org.uk/
