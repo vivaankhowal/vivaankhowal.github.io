@@ -3,91 +3,66 @@ layout: default
 ---
 
 <style>
-  .project-wrapper {
+  .project-page {
     background-color: #000;
     color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
     min-height: 100vh;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
-  .project-sidebar {
-    flex: 1;
-    min-width: 300px;
-    max-width: 380px;
-    background-color: #0a0a0a;
-    border-right: 1px solid #222;
-    padding: 2.5rem 2rem;
-    box-sizing: border-box;
-  }
-
-  .project-sidebar h1 {
-    font-size: 2rem;
+  .project-page h1 {
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
   }
 
-  .project-sidebar p {
-    color: #ccc;
-    line-height: 1.6;
+  .project-page p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #ddd;
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
   }
 
-  .project-content {
-    flex: 3;
-    min-width: 400px;
-    padding: 3rem;
-    box-sizing: border-box;
-  }
-
-  .project-content img {
+  .project-page img {
     max-width: 100%;
     border-radius: 6px;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
   }
 
-  .project-content h2 {
+  .project-page h2 {
     font-size: 1.4rem;
     font-weight: 600;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     color: #fff;
   }
 
-  @media (max-width: 900px) {
-    .project-wrapper {
-      flex-direction: column;
-    }
-
-    .project-sidebar {
-      width: 100%;
-      max-width: 100%;
-      border-right: none;
-      border-bottom: 1px solid #222;
-      text-align: center;
-    }
-
-    .project-content {
-      width: 100%;
+  @media (max-width: 768px) {
+    .project-page {
       padding: 2rem 1.5rem;
+    }
+
+    .project-page h1 {
+      font-size: 2rem;
     }
   }
 </style>
 
-<div class="project-wrapper">
-  <aside class="project-sidebar">
-    <h1>{{ page.title }}</h1>
-    {% if page.thumbnail %}
-      <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
-    {% endif %}
-    {% if page.excerpt %}
-      <p>{{ page.excerpt | markdownify }}</p>
-    {% endif %}
-  </aside>
+<div class="project-page">
+  <h1>{{ page.title }}</h1>
+  {% if page.thumbnail %}
+    <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
+  {% endif %}
 
-  <main class="project-content">
+  {% if page.excerpt %}
+    <p>{{ page.excerpt | markdownify }}</p>
+  {% endif %}
+
+  <div style="margin-top: 2rem; text-align: left; max-width: 900px;">
     {{ content }}
-  </main>
+  </div>
 </div>
