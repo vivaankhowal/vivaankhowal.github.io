@@ -61,5 +61,3 @@ But while the improvements were massive, it was far from perfect. The saber was 
 <img src='/images//IMG_5417.jpg' width='300' height='auto'> 
 <img src='/IMG_0195.JPEG' width='300' height='auto'>
 
-## Takeaways
-If there’s one thing this project taught me, it’s that every build comes with failure—and that’s okay. You don’t always get it right on the first try, and sometimes your best lessons come from watching something fall apart. Version after version, I learned that a failure doesn’t define the outcome of a project or the skill of its creator. What truly matters is how you respond to it, what you learn from it, and how you use that experience to build something stronger, smarter, and better the next time.
