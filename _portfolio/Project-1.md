@@ -13,7 +13,7 @@ The hilt was designed entirely from scratch and refined through several iteratio
 <a href="https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c](https://www.printables.com/model/216477-universal-1in-lightsaber-chassis/files">Click here</a>
 <p></p>
 
-In case you would like to see the full model by yourself, here is the link to the CAD file:
+In case you would like to see the full CAD by yourself, here is the link to the CAD file:
 <a href="https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c">Click here</a>
 
 ## Hardware and Electronics
