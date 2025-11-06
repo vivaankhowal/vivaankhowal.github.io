@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Giant Spider"
-thumbnail: /images/spider-logo.png
+thumbnail: /images/spider-logo.jpg
 collection: Portfolio
 ---
 
