@@ -386,7 +386,6 @@ void loop() {
   lastButton = btn;
   delay(10);
 }
-```
 
 
 
