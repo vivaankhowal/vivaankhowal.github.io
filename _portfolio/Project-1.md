@@ -37,7 +37,7 @@ Test videos:
 </video>
 <p></p>
 <video width="200" controls>
-  <source src="/images/lightsabertest.mp4" type="video/mp4">
+  <source src="/images/test2.mp4" type="video/mp4">
 </video>
 
 
