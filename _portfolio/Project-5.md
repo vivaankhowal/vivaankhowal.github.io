@@ -17,7 +17,7 @@ The Arc Reactor Clock runs on an ESP32-C3 Mini, a small but powerful microcontro
 
 At the center of the design is a 35-LED NeoPixel ring that creates the glowing Arc Reactor effect. Each LED can be controlled individually, which makes it possible to create colorful effects like rainbow animations or smooth pulsing lights. The entire circuit, including the ESP32, display, NeoPixel ring, and buzzer, is powered through a standard 5 V USB cable. The buzzer produces the alarm tone, while a simple push button lets the user stop or snooze the alarm. All the components are neatly arranged inside a custom 3D-printed shell that spreads the light evenly and hides the wiring, giving the clock a clean and futuristic look worthy of Tony Stark.
 
-Its capable of 8 different color and 1 extra rainbow mode:
+Its capable of 8 different colors and an extra rainbow mode:
 <p>
 <img src='/images/red.jpeg' width='200' height='auto'>
 <img src='/images/orange.jpeg' width='200' height='auto'>
