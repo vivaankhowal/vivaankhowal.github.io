@@ -2,10 +2,6 @@
 layout: project
 title: "Knightfall"
 thumbnail: /images/knightfall-logo.png
-<br/>
-<br/>
-<img src='/images/Chess Main View.jpg' width='550' height='auto'>"
-
 collection: Portfolio
 ---
 
