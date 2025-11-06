@@ -10,18 +10,6 @@
  *
 */
 /* Fix long code blocks */
-pre code {
-  white-space: pre-wrap;     /* Wrap long lines */
-  word-break: break-word;    /* Break long words if needed */
-  overflow-x: visible;       /* Disable horizontal scrolling */
-  background-color: #111;    /* Keep your dark background */
-  color: #00ffcc;            /* Neon text style to match your theme */
-  padding: 15px;
-  border-radius: 8px;
-  display: block;
-  font-family: "Fira Code", monospace;
-  font-size: 0.9rem;
-}
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
@@ -52,3 +40,21 @@ pre code {
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Force multiline code wrapping on all pages */
+.highlight pre,
+.highlight code,
+pre code {
+  white-space: pre-wrap !important;  /* Wrap text instead of scrolling */
+  word-break: break-word !important; /* Break long words if needed */
+  overflow-x: visible !important;    /* Disable horizontal scroll bar */
+  background-color: #111 !important; /* Match dark background */
+  color: #00ffcc !important;         /* Neon code text */
+  padding: 15px;
+  border-radius: 8px;
+  display: block;
+  font-family: "Fira Code", monospace;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
