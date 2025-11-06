@@ -39,4 +39,6 @@ The BLE logic allows the user to control and customize the clock using their pho
 <p></p>
 
 Here is the full code:
+<p></p>
+<a href="/images/Proffie Config.rtf" download>
 
