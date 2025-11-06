@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Arc Reactor Clock"
-thumbnail: /images/10.jpeg
+thumbnail: /images/reactorclock-logo.jpg
 collection: Portfolio
 ---
 ## About
