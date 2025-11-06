@@ -10,7 +10,7 @@ This is a real working Neopixel Lightsaber. This project is a culmination of my 
 I designed all the CAD files in Onshape, the 3D modeling software I use for all my projects. Each component of the lightsaber was printed on my Prusa Mk4 using a mix of PETG and PLA filaments in various colors. The hilt was carefully engineered to strike a balance between sleekness and strength—light and thin enough for comfortable swings, yet durable enough to handle light dueling and solid impacts without compromising its structure. The parts of the hilt are threaded for easy assembly/disassembly, and the electronics were put inside a custom chassis for easy removable and problem diagnosis.
 
 The hilt was designed entirely from scratch and refined through several iterations to achieve the perfect balance of form and function. The internal chassis, however, was based on an open-source CAD model that I found online, which I then modified extensively to accommodate my specific components and wiring layout. I don’t take credit for the original chassis design. Here’s the link to the source:
-<a href="https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c](https://www.printables.com/model/216477-universal-1in-lightsaber-chassis/files">Click here</a>
+<a href="https://www.printables.com/model/216477-universal-1in-lightsaber-chassis/files">Click here</a>
 <p></p>
 
 In case you would like to see the full CAD by yourself, here is the link to the CAD file:
