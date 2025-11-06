@@ -2,32 +2,92 @@
 layout: default
 ---
 
-<div style="background-color:#000; color:#fff; min-height:100vh; padding:3rem 0; display:flex; flex-wrap:wrap;">
+<style>
+  .project-wrapper {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+  }
 
-  <!-- Sidebar -->
-  <aside style="
-    flex:1;
-    min-width:280px;
-    max-width:360px;
-    padding:2rem;
-    background-color:#0a0a0a;
-    border-right:1px solid #222;
-    height:auto;
-  ">
-    <h1 style="font-size:2rem; font-weight:700; margin-bottom:1rem;">{{ page.title }}</h1>
+  .project-sidebar {
+    flex: 1;
+    min-width: 300px;
+    max-width: 380px;
+    background-color: #0a0a0a;
+    border-right: 1px solid #222;
+    padding: 2.5rem 2rem;
+    box-sizing: border-box;
+  }
+
+  .project-sidebar h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  .project-sidebar p {
+    color: #ccc;
+    line-height: 1.6;
+  }
+
+  .project-content {
+    flex: 3;
+    min-width: 400px;
+    padding: 3rem;
+    box-sizing: border-box;
+  }
+
+  .project-content img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin: 1rem 0;
+  }
+
+  .project-content h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    color: #fff;
+  }
+
+  @media (max-width: 900px) {
+    .project-wrapper {
+      flex-direction: column;
+    }
+
+    .project-sidebar {
+      width: 100%;
+      max-width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #222;
+      text-align: center;
+    }
+
+    .project-content {
+      width: 100%;
+      padding: 2rem 1.5rem;
+    }
+  }
+</style>
+
+<div class="project-wrapper">
+  <aside class="project-sidebar">
+    <h1>{{ page.title }}</h1>
+    {% if page.thumbnail %}
+      <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
+    {% endif %}
     {% if page.excerpt %}
-      <p style="font-size:1rem; color:#ccc; line-height:1.6;">{{ page.excerpt | markdownify }}</p>
+      <p>{{ page.excerpt | markdownify }}</p>
     {% endif %}
   </aside>
 
-  <!-- Main Content -->
-  <div style="
-    flex:3;
-    padding:2rem 3rem;
-    display:flex;
-    flex-direction:column;
-    gap:2rem;
-  ">
+  <main class="project-content">
     {{ content }}
-  </div>
+  </main>
 </div>
