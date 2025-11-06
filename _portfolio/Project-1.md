@@ -5,31 +5,10 @@ thumbnail: /images/lightsaber-logo.jpg
 ---
 ## About
 This is a real working Neopixel Lightsaber. This project is a culmination of my passion for engineering, design, and science fiction. Inspired by Star Wars, I set out to build a fully functional, movie-accurate lightsaber from scratch by combining 3D printing, embedded electronics, and programming to bring a legendary piece of technology to life. Over several versions, I refined every aspect of the build, from mechanical design and internal wiring to software configuration and blade effects, learning how to merge aesthetics with real engineering functionality along the way. This is the project that kickstarted my journey as an engineer.
-<p></p>
-<img src='/images/10.jpeg' width='700' height='auto'>
-<p></p>
-These are some of the colors it can do:
-<p></p>
-<img src='/images/04.jpeg' width='300' height='auto'>
-<img src='/images/05.jpeg' width='300' height='auto'>
-<img src='/images/06.jpeg' width='300' height='auto'>
-<img src='/images/07.jpeg' width='300' height='auto'>
-<video controls autoplay>
-  <source src="https://github.com/vivaankhowal/vivaankhowal.github.io/raw/refs/heads/master/neopixel-v3.mp4" type="video/mp4">
-</video>
-
-## Improvements
-The new hilt has a lot better design in terms of style and functionality and uses actual screws to hold it together instead of tape. The electronics use a custom chassis to stay in one spot instead of being stuffed in the hilt and prone to tangled wires or even short circuits. There is only one blade this time instead of 3 and there is a single battery instead of a power bank, which is a huge reduction in weight from the previous version. There is also a lot more versatility due to the new custom soundboard instead of an Arduino Nano which leads to having many new features and multiple colors.
-
 
 ## CAD Design
 For the CAD files, I used a 3D modeling software called Onshape to design everything. It's the software I use to design all my projects. Every part of the lightsaber is printed using different colors of PLA filament, printed on a Prusa Mk4 3D printer I have at home. I've designed the hilt to be sleek and thin to avoid being too bulky and easy to swing but also strong enough to withstand heavy hits or dueling. Here are some photos of the 3D Models:
 <p></p>
-<img src='/images/1.png' width='150' height='auto'>
-<img src='/images/2.png' width='200' height='auto'>
-<img src='/images/3.png' width='200' height='auto'>
-<img src='/images/4.png' width='200' height='auto'>
-<img src='/images/5.png' width='200' height='auto'>
 
 In case you would like to see the full model by yourself, here is the link to the CAD file:
 <a href="https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c">Click here</a>
@@ -43,6 +22,10 @@ For the mechanical parts, I used a 3D-printed hilt modeled after an actual light
 ## Software
 <p></p>
 This was by far the hardest part of this project. The Proffieboard is coded using an edited version of C++, and the biggest downside about using a Proffieboard is it takes a lot of setup to code it to your specific components. To code the board, you first have to upload its custom OS using a specific file that is specific to each version of the board. In my case, it was this file, "proffieboard_v3_config.h". Then you have to upload the actual config file for the saber which is shown below through the Arduino IDE. Finally, you need to upload all the sound files through an SD Card which is inserted on the board. Proffieboard config files are just the actual code you upload to the board and they all have 4 parts: The top which is where you define all the hardware and the features you want your blade to have, the color presets which is where you define the exact color of your blade; the sound effect it should use, and any effects it should have like a ripple or a flashing effect; the blade presets which is where you define the exact model of LED strips you used, the number of LEDs in each strip, and what pin on the board the LED strip is wired to; and the button presets which is where you define all the buttons your saber has, what pin they are connected to, and what each button should do. Here is the full code for the Proffieboard:
+
+## Improvements
+The new hilt has a lot better design in terms of style and functionality and uses actual screws to hold it together instead of tape. The electronics use a custom chassis to stay in one spot instead of being stuffed in the hilt and prone to tangled wires or even short circuits. There is only one blade this time instead of 3 and there is a single battery instead of a power bank, which is a huge reduction in weight from the previous version. There is also a lot more versatility due to the new custom soundboard instead of an Arduino Nano which leads to having many new features and multiple colors.
+
 <p></p>
 ```cpp
 //This is where I define all the features, the number of blades, buttons, the volume, and how many LEDs I used
