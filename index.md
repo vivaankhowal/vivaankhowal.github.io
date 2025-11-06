@@ -23,11 +23,13 @@ permalink: /
   <!-- Left side: text -->
   <div style="flex:1 1 380px; max-width:600px;">
     <h1 style="font-size:2.5rem; margin-bottom:1rem;">Vivaan Khowal</h1>
-    <h2 style="font-weight:400; margin-bottom:1.5rem;">High Schooler who loves Engineering</h2>
+    <h2 style="font-weight:400; margin-bottom:1.5rem;">Engineer/Maker/Inventor</h2>
     <p style="line-height:1.6; font-size:1.1rem;">
-      I design and build projects that fuse hardware and software — from ESP32-powered
-      lightsabers to 5-axis robot arms and custom RC cars.
-      I love exploring control theory, embedded systems, and 3D design to bring ideas to life.
+      My name is Vivaan Khowal, and I'm a senior at Lambert High School pursuing engineering. I love building things that blur the line between
+      hardware and software. My passion lies in bringing ideas to life through design, engineering, and experimentation.I’m fascinated by how
+      electronics, code, and 3D design come together to create motion and intelligence.
+      Through every project, I dive deeper into control theory, embedded systems, and digital fabrication — learning how to make each idea more
+      precise, functional, and alive than the last. I love exploring control theory, embedded systems, and 3D design to bring ideas to life.
     </p>
 
     <a href="/portfolio/" style="
@@ -54,14 +56,3 @@ permalink: /
 
 </div>
 
-<section style="text-align:center; padding:2rem 0;">
-  <h3 style="margin-bottom:1rem;">Recent Projects</h3>
-  <p>Explore a few of my latest creations:</p>
-</section>
-
-<div class="feature__wrapper">
-  {% include feature_row id="feature_row" type="left" %}
-</div>
-
-<div style="margin: 80px auto; max-width: 1100px; padding: 0 2rem;">
-</div>
