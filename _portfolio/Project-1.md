@@ -49,6 +49,7 @@ It barely held itself together—connections came loose constantly, and the hilt
 <p></p>
 <img src='/images///Lightsaber V1.jpeg' width='300' height='auto'> 
 <img src='/v1nl.png' width='600' height='auto'> 
+<p></p>
 Here is the Arduino Code for V1:
 
 ```cpp
