@@ -30,7 +30,7 @@ All the colors it can do:
 <img src='/images/Lred.jpeg' width='200' height='auto'> 
 <img src='/images/Lwhite.jpeg' width='200' height='auto'> 
 <p></p>
-Test videos:
+Test videos (Audio is kind of faint):
 <p></p>
 <video width="200" controls>
   <source src="/images/lightsabertest.mp4" type="video/mp4">
@@ -39,7 +39,7 @@ Test videos:
 <video width="200" controls>
   <source src="/images/test2.mp4" type="video/mp4">
 </video>
-
+<p></p>
 
 ## Hardware and Electronics
 For the mechanical design, I wanted the hilt to feel authentic. Something that looked and handled like a real Star Wars lightsaber. I modeled and 3D-printed the entire body from scratch, securing each part using built-in threads for strength and adding a screw on cap at the base to protect the speaker while keeping the design clean and functional.
