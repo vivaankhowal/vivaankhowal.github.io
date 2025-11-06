@@ -23,7 +23,7 @@ Sound comes from a pair of large speakers powered by a small amplifier board, gi
 <img src="/IMG_2651.jpeg" width="400" style="transform: rotate(90deg);">
 <p></p>
 In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
-<a href="https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c">Click here</a>
+<a href="https://cad.onshape.com/documents/01c772af6ef6c2be564f568c/w/ae22e4b72d2e69db0891c8ea/e/ea388e1eb770b64d4539973f?renderMode=0&uiState=690d2c4c2636fc5039e0416d">Click here</a>
 
 ## Software
 The arcade cabinet runs on RetroPie, a lightweight Linux-based operating system designed for retro gaming. Installed on the Raspberry Pi, RetroPie allows seamless emulation of classic arcade and console systems such as NES, SNES, Sega Genesis, Atari, and more. The software automatically detects the USB encoder boards connected to the joysticks and buttons, allowing them to function as standard game controllers without any extra configuration. Through the EmulationStation interface, the system provides an easy-to-navigate menu where each game can be browsed and launched with a single press.
