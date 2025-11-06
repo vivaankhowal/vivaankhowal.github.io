@@ -27,7 +27,7 @@ Its capable of 8 different colors and an extra rainbow mode:
 <img src='/images/purple.jpeg' width='200' height='auto'>
 <img src='/images/pink.jpeg' width='200' height='auto'>
 <img src='/images/white.jpeg' width='200' height='auto'>
-
+<p></p>
 Wiring Diagram:
 <p>
 <img src='/images/clockwiring.png' width='500' height='auto'>
