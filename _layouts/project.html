@@ -2,41 +2,32 @@
 layout: default
 ---
 
-<section style="background-color:#000; color:#fff; min-height:100vh; display:flex; flex-wrap:wrap;">
-  
+<div style="background-color:#000; color:#fff; min-height:100vh; padding:3rem 0; display:flex; flex-wrap:wrap;">
+
   <!-- Sidebar -->
   <aside style="
     flex:1;
-    min-width:300px;
-    max-width:400px;
-    padding:3rem 2rem;
-    position:sticky;
-    top:0;
-    align-self:flex-start;
-    height:100vh;
+    min-width:280px;
+    max-width:360px;
+    padding:2rem;
     background-color:#0a0a0a;
     border-right:1px solid #222;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    height:auto;
   ">
     <h1 style="font-size:2rem; font-weight:700; margin-bottom:1rem;">{{ page.title }}</h1>
-    <p style="font-size:1rem; color:#ccc; margin-bottom:2rem;">
-      {{ page.excerpt | markdownify }}
-    </p>
+    {% if page.excerpt %}
+      <p style="font-size:1rem; color:#ccc; line-height:1.6;">{{ page.excerpt | markdownify }}</p>
+    {% endif %}
   </aside>
 
   <!-- Main Content -->
   <div style="
     flex:3;
-    padding:3rem 4rem;
+    padding:2rem 3rem;
     display:flex;
     flex-direction:column;
     gap:2rem;
   ">
-    <div style="line-height:1.8;">
-      {{ content }}
-    </div>
+    {{ content }}
   </div>
-
-</section>
+</div>
