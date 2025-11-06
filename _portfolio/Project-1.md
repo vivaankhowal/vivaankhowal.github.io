@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: project
 title: "Neopixel Lightsaber"
-thumbnail: images/lightsaber-logo.jpg
-excerpt: "This is the final version of the Neopixel Lightsaber. It's a near-perfect recreation of one of the most infamous pieces of sci-fi tech in Star Wars!
+thumbnail: /images/lightsaber-logo.png
+collection: Portfolio
+---
+
 <br/>
 <br/>
 <img src='/images/10.jpeg' width='800' height='auto'>"
