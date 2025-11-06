@@ -29,16 +29,19 @@ Its capable of 8 different colors and an extra rainbow mode:
 <img src='/images/white.jpeg' width='200' height='auto'>
 <p></p>
 Wiring Diagram:
-<p>
-<img src='/images/clockwiring.png' width='500' height='auto'>
-
 <p></p>
+<img src='/images/clockwiring.png' width='700' height='auto'>
+<p></p>
+In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
+<a href="https://cad.onshape.com/documents/c05fe77fce817ccd58ccb914/w/9b64295ff5e8a64c2e3bee27/e/1dd29dc51b94e47abc77f13b">Click here</a>
+
+## Software
 In all of my projects, this is the one with the most complicated software. The software for the Arc Reactor Clock is written in Arduino C++ and runs on the ESP32-C3 Mini. It controls the clock display, LED animations, and alarm behavior while allowing wireless configuration through Bluetooth Low Energy (BLE). When powered on, the ESP32 initializes the TM1637 display to show the current time and starts the NeoPixel animations based on the selected mode, such as a solid color or a smooth rainbow effect. The code keeps track of time internally using the ESP32’s built-in clock and updates the display every second. The alarm system is handled in software by comparing the current time to a stored alarm time, triggering the buzzer and LED flashing pattern when they match.
 <p></p>
 The BLE logic allows the user to control and customize the clock using their phone or computer. Once connected via Bluetooth, the ESP32 listens for text-based commands that let the user adjust settings in real time. For example, sending "settime YYYY-MM-DD HH:MM:SS" updates the current time, "setcolor R,G,B" changes the LED color, and "setmode rainbow" activates the rainbow animation. There are also commands to set or stop the alarm. When the alarm is active, the LEDs flash green while the buzzer pulses, and pressing the physical button or sending a Bluetooth command stops the alarm and restores the previous lighting mode. This setup makes the Arc Reactor Clock fully interactive, combining the look of an Iron Man reactor with the flexibility of smart Bluetooth control.
 <p></p>
 
 Here is the full code:
-<p></p>
-<a href="/images/Proffie Config.rtf" download>
+<a href="/images/ArcReactorClockCode copy.ino" download>
+  Click Here
 
