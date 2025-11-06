@@ -2,7 +2,6 @@
 layout: project
 title: "Neopixel Lightsaber"
 thumbnail: /images/lightsaber-logo.jpg
-collection: Portfolio
 ---
 
 <br/>
