@@ -9,6 +9,19 @@
  *  - https://twitter.com/mmistakes
  *
 */
+/* Fix long code blocks */
+pre code {
+  white-space: pre-wrap;     /* Wrap long lines */
+  word-break: break-word;    /* Break long words if needed */
+  overflow-x: visible;       /* Disable horizontal scrolling */
+  background-color: #111;    /* Keep your dark background */
+  color: #00ffcc;            /* Neon text style to match your theme */
+  padding: 15px;
+  border-radius: 8px;
+  display: block;
+  font-family: "Fira Code", monospace;
+  font-size: 0.9rem;
+}
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
