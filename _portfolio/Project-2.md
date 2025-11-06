@@ -10,12 +10,13 @@ This was my largest project by scale — a giant spider built as a Halloween dec
 
 Here is the source:
 <iframe width="560" height="315"
-  src="https://www.youtube.com/watch?v=2f89PYxWFvA"
+  src="https://www.youtube.com/embed/2f89PYxWFvA"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+
 
 
 ## Body
