@@ -3,12 +3,6 @@ layout: project
 title: "Neopixel Lightsaber"
 thumbnail: /images/lightsaber-logo.jpg
 ---
-
-<br/>
-<br/>
-<img src='/images/10.jpeg' width='800' height='auto'>"
-collection: Portfolio
----
 ## About
 This is a real working Neopixel Lightsaber. This project is a culmination of my passion for engineering, design, and science fiction. Inspired by Star Wars, I set out to build a fully functional, movie-accurate lightsaber from scratch by combining 3D printing, embedded electronics, and programming to bring a legendary piece of technology to life. Over several versions, I refined every aspect of the build, from mechanical design and internal wiring to software configuration and blade effects, learning how to merge aesthetics with real engineering functionality along the way. This is the project that kickstarted my journey as an engineer.
 <p></p>
