@@ -37,9 +37,11 @@ The first version of ARTIS was built almost entirely from 3D printed parts using
 
 For version two, I’m taking a different approach by switching from servos to stepper motors for more precise control and smoother motion. To make the build more challenging and resourceful, I’m reusing components from an old Ender 3 Pro 3D printer, including the stepper motors, aluminum extrusions, and possibly some of the mechanical mounts. This version will also include a camera module for basic vision tracking, allowing the arm to identify and interact with objects in its workspace. I’m still in the process of designing a new tool swapping mechanism, aiming for a system that’s stronger, more reliable, and easier to align than the magnetic connectors from version one. Overall, V2 will be a major upgrade, combining recycled hardware with new features to make ARTIS smarter, faster, and more capable than before.
 <p></p>
+V1 Circuit:
+<p></p>
 <img src='/images/16.jpeg' width='450' height='auto' >
 <p></p>
-Current progress on the circuit:
+Current progress on the V2 circuit:
 <p></p>
 <img src='/images/16.jpeg' width='450' height='auto' >
 
