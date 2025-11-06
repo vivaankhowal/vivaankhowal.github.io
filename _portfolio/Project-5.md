@@ -19,11 +19,11 @@ At the center of the design is a 35-LED NeoPixel ring that creates the glowing A
 
 Its capable of 8 different colors and an extra rainbow mode:
 <p>
+<img src='/images/blue.jpeg' width='200' height='auto'>
 <img src='/images/red.jpeg' width='200' height='auto'>
 <img src='/images/orange.jpeg' width='200' height='auto'>
 <img src='/images/yellow.jpeg' width='200' height='auto'>
 <img src='/images/green.jpeg' width='200' height='auto'>
-<img src='/images/blue.jpeg' width='200' height='auto'>
 <img src='/images/purple.jpeg' width='200' height='auto'>
 <img src='/images/pink.jpeg' width='200' height='auto'>
 <img src='/images/white.jpeg' width='200' height='auto'>
@@ -39,7 +39,7 @@ The BLE logic allows the user to control and customize the clock using their pho
 <p></p>
 
 Here is the full code:
-```cpp
+<pre><code>
 #include <BLEDevice.h>
 #include <BLEServer.h>
 #include <BLEUtils.h>
@@ -385,6 +385,7 @@ void loop() {
   lastButton = btn;
   delay(10);
 }
-```
+</code></pre>
+
 
 
