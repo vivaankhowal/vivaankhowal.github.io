@@ -19,7 +19,7 @@ This project—a life-size cardboard replica of the Minecraft wolf, fully hand-p
 ## Details
 The wolf measures 33 inches tall, 16 inches wide, and 48 inches long. It is constructed entirely from cardboard, with each panel hand-cut and painted to accurately replicate the in-game model. The internal framework consists of a reinforced grid structure, providing rigidity to prevent warping or collapse. The assembly is secured using hot glue for bonding and duct tape for additional joint reinforcement. While primarily designed as a static display model, the project emphasizes basic structural efficiency within simple material constraints.
 <p></p>
-<img src='/images/Minecraft Wolf Game.png' width='300' height='auto'>
+<img src='/images/cardboardwolfblock.png' width='300' height='auto'>
 
 How it looks in-game:
 <p></p>
