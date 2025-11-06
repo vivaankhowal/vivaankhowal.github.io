@@ -52,6 +52,8 @@ The second version was where things finally started to feel real. The hilt was n
 This time, the Arduino Uno was swapped out for a Nano, the code was cleaner, and the entire circuit was soldered instead of being precariously wired through a breadboard. The new design even featured three blades in a Kylo Ren-style layout, giving it a dramatic flair and a real sense of power when lit.
 <p></p>
 But while the improvements were massive, it was far from perfect. The saber was incredibly heavy, with terrible weight distribution that made it awkward to hold. The hilt had no aesthetic design—just a rough, functional shell meant to test what was possible. Still, this version proved that I could take an idea from prototype to something that actually worked, even if it wasn’t yet beautiful.
+<p></p>
+<img src='/images/Chess Main View.jpg' width='400' height='auto'>
 
 ## Takeaways
 If there’s one thing this project taught me, it’s that every build comes with failure—and that’s okay. You don’t always get it right on the first try, and sometimes your best lessons come from watching something fall apart. Version after version, I learned that a failure doesn’t define the outcome of a project or the skill of its creator. What truly matters is how you respond to it, what you learn from it, and how you use that experience to build something stronger, smarter, and better the next time.
