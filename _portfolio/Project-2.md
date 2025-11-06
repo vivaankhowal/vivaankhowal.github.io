@@ -1,4 +1,4 @@
-3---
+---
 layout: project
 title: "Giant Spider"
 thumbnail: /images/spider-logo.jpg
