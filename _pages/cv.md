@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,7 +11,7 @@ Achievements
 ======
 * **Semifinalist** for the _Governer's Honors Program_
   * Nominated for the Electrical and Computational subcategory
-* **Won 2nd place** at the _2025 Lanier Regional Tech Competition_
+* **Won 2nd place** at the _2025 Lanier Regional Tech Competition in robotics using A.R.T.I.S
 * Red Cross Certified Swim Instructor
 * Red Cross Certified Lifeguard
 
@@ -22,6 +22,10 @@ Education
 
 Work experience
 ======
+* September 2025 - Present: **VAS Wiring Recieving Temp**
+  * AutomationDirect
+  * Helped with various tasks like updating circuit boards and building spools for wires
+
 * Summer 2024: **Swimming Coach**
   * Cumming Aquatic Center - City of Cumming
   * Taught swimming to kids age 6-12
