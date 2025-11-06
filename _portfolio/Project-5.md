@@ -1,11 +1,7 @@
 ---
-layout: default
+layout: project
 title: "Arc Reactor Clock"
 thumbnail: /images/10.jpeg
-excerpt: "I've always wanted to build a clock for my room, but I built not one but two clocks. Here are the 2 clocks I built!
-<br/>
-<br/>
-<img src='/images/25.jpeg' width='400' height='auto'>"
 collection: Portfolio
 ---
 ## About
