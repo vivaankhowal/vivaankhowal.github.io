@@ -17,18 +17,7 @@ The hilt was designed entirely from scratch and refined through several iteratio
 
 In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
 <a href="https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c">Click here</a>
-<p></p>
 
-All the colors it can do:
-<p>
-<img src='/images/Lblue.jpeg' width='200' height='auto'> 
-<img src='/images/Lgreen.jpeg' width='200' height='auto'> 
-<img src='/images/Lpurple.jpeg' width='200' height='auto'> 
-<img src='/images/Lorange.jpeg' width='200' height='auto'> 
-<img src='/images/Lyellow.jpeg' width='200' height='auto'> 
-<img src='/images/Lcyan.jpeg' width='200' height='auto'> 
-<img src='/images/Lred.jpeg' width='200' height='auto'> 
-<img src='/images/Lwhite.jpeg' width='200' height='auto'> 
 <p></p>
 Test videos (Audio is kind of faint):
 <p></p>
@@ -41,8 +30,19 @@ Test videos (Audio is kind of faint):
 </video>
 <p></p>
 
-## Hardware and Electronics
+All the colors it can do:
+<p>
+<img src='/images/Lblue.jpeg' width='200' height='auto'> 
+<img src='/images/Lgreen.jpeg' width='200' height='auto'> 
+<img src='/images/Lpurple.jpeg' width='200' height='auto'> 
+<img src='/images/Lorange.jpeg' width='200' height='auto'> 
+<img src='/images/Lyellow.jpeg' width='200' height='auto'> 
+<img src='/images/Lcyan.jpeg' width='200' height='auto'> 
+<img src='/images/Lred.jpeg' width='200' height='auto'> 
+<img src='/images/Lwhite.jpeg' width='200' height='auto'> 
+</p>
 
+## Hardware and Electronics
 For the mechanical design, I wanted the hilt to feel authentic. Something that looked and handled like a real Star Wars lightsaber. I modeled and 3D-printed the entire body from scratch, securing each part using built-in threads for strength and adding a screw on cap at the base to protect the speaker while keeping the design clean and functional.
 <p></p>
 Inside, the real magic happens. Instead of a simple Arduino, I used a Proffieboard, a custom soundboard built specifically for Neopixel lightsabers. With its built-in gyroscope and accelerometer, every swing and clash comes to life with motion-reactive effects. The blade itself uses two WS2812B LED strips inside a 40-inch polycarbonate tube, wrapped in diffusive film and foam to spread the light evenly and create that bright, movie-accurate glow.
@@ -53,6 +53,7 @@ The hilt features one control button with various types of inputs triggering var
 <img src='/images/handlesplit.jpeg' width='400' height='auto'> 
 <img src='/images/chassis.jpeg' width='400' height='auto'> 
 
+<p></p>
 
 ## Software
 <p></p>
