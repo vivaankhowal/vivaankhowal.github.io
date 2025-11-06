@@ -14,11 +14,14 @@ Achievements
 * **Won 2nd place** at the _2025 Lanier Regional Tech Competition in robotics using A.R.T.I.S
 * Red Cross Certified Swim Instructor
 * Red Cross Certified Lifeguard
+* Lambert National Technical Honor Society
+* Lambert National Honor Society
 
 
 Education
 ======
 * Junior at Lambert High School
+* Mostly self-taught engineer
 
 Work experience
 ======
@@ -36,12 +39,15 @@ Work experience
 Skills
 ======
 * Swimming
-* 3D Modeling (Onshape and Solidworks)
+* Onshape
+* Solidworks
 * 3D Printing
 * Woodworking
 * Electrical Engineer
+* Mechanical Engineer
   
 Service and leadership
 ======
 * Varsity Member of High School Robotics Team
   * Head Pit Manager for the team
+* 2nd Lead for the Lambert 3D Printing Club
