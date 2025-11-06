@@ -35,7 +35,7 @@ Each Proffie config file is broken into four key sections. The first defines the
 After hours of trial, tweaking, and re-uploads, seeing the blade ignite exactly how I imagined: perfect color transitions, synchronized sound, and responsive motion made it all worth it.
 
 
-<a href="/Proffieboard_Lightsaber_Code.zip" download>
+<a href="/Proffie Config.rtf" download>
   Click here to see the full config file:
 </a>
 
