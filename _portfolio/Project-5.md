@@ -33,7 +33,7 @@ Wiring Diagram:
 <img src='/images/clockwiring.png' width='500' height='auto'>
 <p></p>
 In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
-<a href="https://cad.onshape.com/documents/c05fe77fce817ccd58ccb914/w/9b64295ff5e8a64c2e3bee27/e/46d1e4e73b3508c8030590af">Click here</a>
+<a href="https://cad.onshape.com/documents/c05fe77fce817ccd58ccb914/w/9b64295ff5e8a64c2e3bee27/e/1dd29dc51b94e47abc77f13b">Click here</a>
 
 <p></p>
 
