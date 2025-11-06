@@ -18,7 +18,9 @@ The hilt was designed entirely from scratch and refined through several iteratio
 In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
 <a href="https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c">Click here</a>
 <p></p>
+
 All the colors it can do:
+<p>
 <img src='/images/Lblue.jpeg' width='200' height='auto'> 
 <img src='/images/Lgreen.jpeg' width='200' height='auto'> 
 <img src='/images/Lpurple.jpeg' width='200' height='auto'> 
@@ -27,6 +29,7 @@ All the colors it can do:
 <img src='/images/Lcyan.jpeg' width='200' height='auto'> 
 <img src='/images/Lred.jpeg' width='200' height='auto'> 
 <img src='/images/Lwhite.jpeg' width='200' height='auto'> 
+<p></p>
 
 Test video of one of the modes:
 <video width="600" controls>
