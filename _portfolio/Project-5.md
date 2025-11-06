@@ -39,7 +39,8 @@ The BLE logic allows the user to control and customize the clock using their pho
 <p></p>
 
 Here is the full code:
-<pre><code>
+
+```cpp
 #include <BLEDevice.h>
 #include <BLEServer.h>
 #include <BLEUtils.h>
@@ -385,7 +386,7 @@ void loop() {
   lastButton = btn;
   delay(10);
 }
-</code></pre>
+```
 
 
 
