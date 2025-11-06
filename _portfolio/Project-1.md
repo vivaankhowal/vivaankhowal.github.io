@@ -25,6 +25,7 @@ Inside, the real magic happens. Instead of a simple Arduino, I used a Proffieboa
 <p></p>
 The hilt features one control button with various types of inputs triggering various actions. Power comes from a 3.7 V 18650 Li-ion battery with a 3500 mAh capacity and despite drawing around 2.5 A, the saber can run for just over an hour on a single charge. Finally, a 2 W 8 Ω speaker delivers the signature hum and clash sounds, all within a 3D printed chassis to keep everything protected.
 <p></p>
+<img src='/images/lightsaberwiring.png' width='600' height='auto'> 
 
 ## Software
 <p></p>
