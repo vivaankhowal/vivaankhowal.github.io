@@ -41,8 +41,8 @@ Test videos (Audio is kind of faint):
 </video>
 <p></p>
 
-
 ## Hardware and Electronics
+
 For the mechanical design, I wanted the hilt to feel authentic. Something that looked and handled like a real Star Wars lightsaber. I modeled and 3D-printed the entire body from scratch, securing each part using built-in threads for strength and adding a screw on cap at the base to protect the speaker while keeping the design clean and functional.
 <p></p>
 Inside, the real magic happens. Instead of a simple Arduino, I used a Proffieboard, a custom soundboard built specifically for Neopixel lightsabers. With its built-in gyroscope and accelerometer, every swing and clash comes to life with motion-reactive effects. The blade itself uses two WS2812B LED strips inside a 40-inch polycarbonate tube, wrapped in diffusive film and foam to spread the light evenly and create that bright, movie-accurate glow.
