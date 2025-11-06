@@ -17,16 +17,30 @@ In case you would like to see the full CAD by yourself, here is the link to the 
 <a href="https://cad.onshape.com/documents/8b1e48b3216e106fd44b4235/w/fd17460cb4c97ed501f7c7bf/e/7a5b61b84dcedab8b72c5028?renderMode=0&uiState=67bb879c9945893e9448000c">Click here</a>
 
 ## Hardware and Electronics
-For the mechanical parts, I used a 3D-printed hilt modeled after an actual lightsaber of a star wars character and uses screws to hold together each part. The cap at the bottom is a friction-fit cap to cover the speaker. For the electronics, instead of using an Arduino, I used a custom soundboard with a built-in gyroscope and accelerometer called a Proffieboard made specifically for Neopixel Lightsabers. It uses the same 2 WS2812b LED strips for the lights and a 40-inch polycarbonate tube with special diffusive film and packing foam to diffuse the light. It uses 2 momentary buttons instead of 1: one button for activating the saber, and the other for changing colors or blaster effects. For power, it uses a 3.7V 18650 Lithium Ion battery with a capacity of 3500mAh connected to a High Amp kill switch to cut the power if needed, and with the saber having a current draw of around 2.5A, the saber runs for a little more than 1 hour before the battery runs out. For sound, it uses a 3W 4Ω Speaker and the board has a built-in resistor to avoid short circuits. Here is the wiring diagram:
+For the mechanical design, I wanted the hilt to feel authentic. Something that looked and handled like a real Star Wars lightsaber. I modeled and 3D-printed the entire body from scratch, securing each part using built-in threads for strength and adding a screw on cap at the base to protect the speaker while keeping the design clean and functional.
 <p></p>
-<img src='/images/6.png' width='600' height='auto'>
+Inside, the real magic happens. Instead of a simple Arduino, I used a Proffieboard, a custom soundboard built specifically for Neopixel lightsabers. With its built-in gyroscope and accelerometer, every swing and clash comes to life with motion-reactive effects. The blade itself uses two WS2812B LED strips inside a 40-inch polycarbonate tube, wrapped in diffusive film and foam to spread the light evenly and create that bright, movie-accurate glow.
+<p></p>
+The hilt features one control button with various types of inputs triggering various actions. Power comes from a 3.7 V 18650 Li-ion battery with a 3500 mAh capacity and despite drawing around 2.5 A, the saber can run for just over an hour on a single charge. Finally, a 2 W 8 Ω speaker delivers the signature hum and clash sounds, all within a 3D printed chassis to keep everything protected.
 <p></p>
 
 ## Software
 <p></p>
-This was by far the hardest part of this project. The Proffieboard is coded using an edited version of C++, and the biggest downside about using a Proffieboard is it takes a lot of setup to code it to your specific components. To code the board, you first have to upload its custom OS using a specific file that is specific to each version of the board. In my case, it was this file, "proffieboard_v3_config.h". Then you have to upload the actual config file for the saber which is shown below through the Arduino IDE. Finally, you need to upload all the sound files through an SD Card which is inserted on the board. Proffieboard config files are just the actual code you upload to the board and they all have 4 parts: The top which is where you define all the hardware and the features you want your blade to have, the color presets which is where you define the exact color of your blade; the sound effect it should use, and any effects it should have like a ripple or a flashing effect; the blade presets which is where you define the exact model of LED strips you used, the number of LEDs in each strip, and what pin on the board the LED strip is wired to; and the button presets which is where you define all the buttons your saber has, what pin they are connected to, and what each button should do. Here is the full code for the Proffieboard:
+This part of the build was by far the most challenging, and the most rewarding. The Proffieboard runs on a customized version of C++, and getting it to work perfectly with my specific setup required a lot of careful configuration. Unlike plug-and-play boards, the Proffieboard demands precision: every LED, button, and sound effect must be defined in code before it all comes together.
+<p></p>
+The process began by flashing the board’s custom operating system using a special config file. After that, I uploaded the actual configuration file for the saber through the Arduino IDE, defining every feature and behavior. Finally, I loaded all the sound fonts and effects onto a micro-SD card, which the board reads during runtime.
+<p></p>
+Each Proffie config file is broken into four key sections. The first defines the hardware and features: everything from motion sensors to volume. The next defines color presets, specifying the exact color, sound font, and visual effect for each blade style. The third section outlines blade presets, telling the board what type of LED strips I used, how many LEDs are on each, and which pins they connect to. The last part defines button behavior, mapping out what each input does.
+<p></p>
+After hours of trial, tweaking, and re-uploads, seeing the blade ignite exactly how I imagined: perfect color transitions, synchronized sound, and responsive motion made it all worth it.
 
-## Improvements
+
+<a href="/Proffieboard_Lightsaber_Code.zip" download>
+  Click here to see the full config file:
+</a>
+
+
+## Version 1
 The new hilt has a lot better design in terms of style and functionality and uses actual screws to hold it together instead of tape. The electronics use a custom chassis to stay in one spot instead of being stuffed in the hilt and prone to tangled wires or even short circuits. There is only one blade this time instead of 3 and there is a single battery instead of a power bank, which is a huge reduction in weight from the previous version. There is also a lot more versatility due to the new custom soundboard instead of an Arduino Nano which leads to having many new features and multiple colors.
 
 <p></p>
