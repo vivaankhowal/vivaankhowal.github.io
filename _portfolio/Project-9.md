@@ -16,7 +16,8 @@ The first version of the Blitz RC Car was built using Tarmo5 RC car parts, which
 For power, the car used a 1450 KV brushless motor, a 60A speed controller, and a 3S LiPo battery, giving it solid speed and torque for testing. It was controlled with a basic RC transmitter and receiver, which kept things simple and reliable. This setup didn’t include any advanced features like a differential or telemetry, but it worked well enough to drive, test, and understand the basics of RC car performance. Building and running this version gave me a good foundation to start designing my own custom model for future versions.
 
 Obviously I don't take any credit for the Tarmo5 design, so here is the link where I got the files:
-https://www.printables.com/model/348623-3d-printed-rc-car-tarmo5
+<a href="https://www.printables.com/model/348623-3d-printed-rc-car-tarmo5">Click here</a>
+<p></p>
 
 
 ## Hardware V2
