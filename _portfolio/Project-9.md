@@ -29,4 +29,10 @@ The Blitz RC Car is being built from the ground up with performance and durabili
 Mechanically, the car will feature a full all-wheel drive (AWD) drivetrain with a limited slip differential to balance power between the front and rear wheels for improved traction on rough terrain. The suspension system will use oil-filled shocks for smoother handling and better control during jumps and uneven surfaces. Powering the car is a 3300 KV brushless motor paired with a waterproof 85A electronic speed controller (ESC) to handle high current loads while staying reliable in all weather conditions. Control comes from a transmitter and receiver combo equipped with smart telemetry, allowing real-time monitoring of motor temperature, battery voltage, and overall performance. Together, these components will make Blitz a tough, high-speed off-road RC car that blends advanced mechanics with a fully customizable, maker-friendly design.
 
 <p></p>
-<img src='/images/Chess Main View.jpg' width='400' height='auto'>
+<img src='/images/rc1.jpeg' width='400' height='auto'>
+<img src='/images/rc2.jpeg' width='400' height='auto'>
+<img src='/images/rc3.jpeg' width='400' height='auto'>
+<img src='/images/rc4.jpeg' width='400' height='auto'>
+<img src='/images/rc5.jpeg' width='400' height='auto'>
+<img src='/images/rc6.jpeg' width='400' height='auto'>
+
