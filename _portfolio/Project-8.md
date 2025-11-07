@@ -22,6 +22,8 @@ Sound comes from a pair of large speakers powered by a small amplifier board, gi
 <p></p>
 <img src="/IMG_2651.jpeg" width="400" style="transform: rotate(-90deg);">
 <p></p>
+<p></p>
+<p></p>
 In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
 <a href="https://cad.onshape.com/documents/01c772af6ef6c2be564f568c/w/ae22e4b72d2e69db0891c8ea/e/ea388e1eb770b64d4539973f?renderMode=0&uiState=690d2c4c2636fc5039e0416d">Click here</a>
 

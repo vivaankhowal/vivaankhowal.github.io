@@ -34,6 +34,7 @@ Wiring Diagram:
 <p></p>
 In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
 <a href="https://cad.onshape.com/documents/c05fe77fce817ccd58ccb914/w/9b64295ff5e8a64c2e3bee27/e/1dd29dc51b94e47abc77f13b">Click here</a>
+<p></p>
 
 ## Software
 In all of my projects, this is the one with the most complicated software. The software for the Arc Reactor Clock is written in Arduino C++ and runs on the ESP32-C3 Mini. It controls the clock display, LED animations, and alarm behavior while allowing wireless configuration through Bluetooth Low Energy (BLE). When powered on, the ESP32 initializes the TM1637 display to show the current time and starts the NeoPixel animations based on the selected mode, such as a solid color or a smooth rainbow effect. The code keeps track of time internally using the ESP32’s built-in clock and updates the display every second. The alarm system is handled in software by comparing the current time to a stored alarm time, triggering the buzzer and LED flashing pattern when they match.

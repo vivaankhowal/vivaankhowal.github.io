@@ -43,7 +43,7 @@ V1 Circuit:
 <p></p>
 Current progress on the V2 circuit:
 <p></p>
-<img src='/images/16.jpeg' width='450' height='auto' >
+<img src='/images/v2circuit.jpeg' width='450' height='auto' >
 
 
 ## Design Flaws
