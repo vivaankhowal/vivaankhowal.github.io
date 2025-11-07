@@ -19,6 +19,9 @@ Obviously I don't take any credit for the Tarmo5 design, so here is the link whe
 <a href="https://www.printables.com/model/348623-3d-printed-rc-car-tarmo5">Click here</a>
 <p></p>
 
+In case you would like to see the full CAD by yourself, here is the link to the CAD file: 
+<a href="https://cad.onshape.com/documents/7957daea7132d0cf69a24699/w/9808fe8b4639d9281a07fc6e/e/36467bfa6488e0f881310c5b?renderMode=0&uiState=690d398a445d942474804ba6">Click here</a>
+
 
 ## Hardware V2
 The Blitz RC Car is being built from the ground up with performance and durability in mind. The main chassis, suspension, and body components will all be 3D printed using either PETG or carbon fiber nylon filament to achieve a balance of strength, flexibility, and impact resistance. The design focuses on modularity, making it easy to swap out or repair parts after testing.
