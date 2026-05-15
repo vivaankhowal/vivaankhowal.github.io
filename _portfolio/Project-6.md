@@ -11,6 +11,7 @@ There was one catch: we didn't have a working CNC machine at the time so I could
 
 <p></p>
 <img src='/images/Robot Cart/IMG_0176.JPG' width='500' height='auto'>
+<img src='/images/Robot Cart/CAD.png' width='500' height='auto'>
 <img src='/images/Robot Cart/IMG_0177.JPG' width='500' height='auto'>
 <img src='/images/Robot Cart/IMG_0178.JPG' width='500' height='auto'>
 <p></p>
