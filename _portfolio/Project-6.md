@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Cardboard Minecraft Wolf"
+title: "FIRST Robotics Robot Cart"
 thumbnail: /images/Minecraft Wolf IRL.jpeg
 collection: Portfolio
 ---
