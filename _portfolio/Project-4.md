@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "A.R.T.I.S"
+title: "H.E.L.I.X"
 thumbnail: /images/artis-logo.png
 collection: Portfolio
 ---
