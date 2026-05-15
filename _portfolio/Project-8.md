@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Arcade Cabinet"
-thumbnail: /images/arcadecabinet-logo.png
+thumbnail: /images/cabinet-logo.png
 collection: Portfolio
 ---
 
