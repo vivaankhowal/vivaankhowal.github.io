@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "3D Printed Projects"
+title: "Giant Halloween Chessboard"
 thumbnail: /images/Chess Main View.jpg
 collection: Portfolio
 ---
