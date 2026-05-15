@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "H.E.L.I.X"
-thumbnail: /images/artis-logo.png
+thumbnail: /images/helix logo.png
 collection: Portfolio
 ---
 
@@ -29,7 +29,9 @@ Here is a link to the full Onshape file:
 <p></p>
 For version 2, The goal is to design every single part on my own. So far this is the progress that I have made and am still tweaking it.
 <p></p>
-<img src='/images/artis-logo.png' width='400' height='auto' >
+<img src='/images/helix logo.png' width='400' height='auto' >
+<p></p>
+<img src='/images/helix side view.png' width='400' height='auto' >
 
 
 ## Hardware and Electronics
@@ -41,9 +43,6 @@ V1 Circuit:
 <p></p>
 <img src='/images/16.jpeg' width='450' height='auto' >
 <p></p>
-Current progress on the V2 circuit:
-<p></p>
-<img src='/images/v2circuit.jpeg' width='450' height='auto' >
 
 
 ## Design Flaws
